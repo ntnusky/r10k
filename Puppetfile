@@ -14,7 +14,6 @@ mod 'puppetlabs/xinetd'
 # Misc modules - dependencies
 mod 'nanliu/staging'
 mod 'stackforge/openstacklib'
-mod 'stackforge/openstack_extras'
 
 # Modules for the controllers
 mod 'puppetlabs/rabbitmq'
@@ -33,6 +32,9 @@ mod 'role',
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git'
 
+mod 'openstack_extras',
+  :git => 'https://github.com/stackforge/puppet-openstack_extras.git',
+  :ref => 'stable/juno'
 mod 'keystone',
   :git => 'https://github.com/stackforge/puppet-keystone.git',
   :ref => 'stable/juno'
