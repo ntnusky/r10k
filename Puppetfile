@@ -5,6 +5,7 @@ mod 'puppetlabs/firewall'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/mysql'
 mod 'puppetlabs/apt'
+mod 'puppetlabs/xinetd'
 mod 'nanliu/staging'
 
 mod 'puppetlabs/rabbitmq'
