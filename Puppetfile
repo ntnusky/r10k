@@ -34,7 +34,6 @@ mod 'profile',
 
 mod 'openstack_extras',
   :git => 'https://github.com/stackforge/puppet-openstack_extras.git',
-  :ref => 'stable/juno'
 mod 'keystone',
   :git => 'https://github.com/stackforge/puppet-keystone.git',
   :ref => 'stable/juno'
