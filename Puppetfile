@@ -1,4 +1,6 @@
 forge "http://forge.puppetlabs.com"
 
-# Modules from the Puppet Forge
 mod "puppetlabs/apache"
+
+mod 'role',
+  :git => 'https://github.com/ntnusky/role.git',
