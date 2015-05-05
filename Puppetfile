@@ -14,6 +14,7 @@ mod 'puppetlabs/xinetd'
 # Misc modules - dependencies
 mod 'nanliu/staging'
 mod 'stackforge/openstacklib'
+mod 'puppetlabs/openstack_extras'
 
 # Modules for the controllers
 mod 'puppetlabs/rabbitmq'
