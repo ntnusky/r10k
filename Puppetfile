@@ -24,3 +24,7 @@ mod 'role',
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git'
+
+mod 'keystone',
+  :git => 'https://github.com/stackforge/puppet-keystone.git',
+  :ref => 'stable/juno'
