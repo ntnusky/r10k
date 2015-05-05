@@ -4,7 +4,6 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/firewall'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/mysql'
-mod 'puppetlabs/stdlib'
 mod 'puppetlabs/apt'
 mod 'nanliu/staging'
 
