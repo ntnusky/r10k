@@ -1,5 +1,6 @@
 forge "http://forge.puppetlabs.com"
 
+# Puppetlabs modules - dependencies
 mod 'puppetlabs/apache'
 mod 'puppetlabs/apt', "1.7.0"
 mod 'puppetlabs/concat'
@@ -10,9 +11,11 @@ mod 'puppetlabs/ntp'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/xinetd'
 
+# Misc modules - dependencies
 mod 'nanliu/staging'
 mod 'stackforge/openstacklib'
 
+# Modules for the controllers
 mod 'puppetlabs/rabbitmq'
 mod 'puppetlabs/haproxy'
 
