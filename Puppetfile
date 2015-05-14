@@ -14,6 +14,7 @@ mod 'puppetlabs/xinetd'
 # Misc modules - dependencies
 mod 'nanliu/staging'
 mod 'stackforge/openstacklib'
+mod 'stackforge/vswitch'
 
 # Ceph dependency
 mod 'bodepd/scenario_node_terminus',
@@ -48,4 +49,12 @@ mod 'keystone',
 
 mod 'glance',
   :git => 'https://github.com/stackforge/puppet-glance.git',
+  :ref => 'stable/juno'
+
+mod 'nova',
+  :git => 'https://github.com/stackforge/puppet-nova.git',
+  :ref => 'stable/juno'
+
+mod 'neutron',
+  :git => 'https://github.com/stackforge/puppet-neutron.git',
   :ref => 'stable/juno'
