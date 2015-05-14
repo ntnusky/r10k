@@ -45,3 +45,7 @@ mod 'ceph',
 mod 'keystone',
   :git => 'https://github.com/stackforge/puppet-keystone.git',
   :ref => 'stable/juno'
+
+mod 'glance',
+  :git => 'https://github.com/stackforge/puppet-glance.git',
+  :ref => 'stable/juno'
