@@ -23,6 +23,7 @@ mod 'bodepd/scenario_node_terminus',
 # Modules for the controllers
 mod 'puppetlabs/rabbitmq'
 mod 'puppetlabs/haproxy'
+mod 'puppetlabs/corosync'
 
 mod 'arioch/keepalived'
 mod 'duritong/sysctl'
