@@ -61,3 +61,7 @@ mod 'nova',
 mod 'neutron',
   :git => 'https://github.com/stackforge/puppet-neutron.git',
   :ref => 'stable/juno'
+
+mod 'cinder',
+  :git => 'https://github.com/stackforge/puppet-cinder.git',
+  :ref => 'stable/juno'
