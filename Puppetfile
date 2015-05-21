@@ -28,6 +28,9 @@ mod 'arioch/keepalived'
 mod 'duritong/sysctl'
 mod 'saz/memcached'
 
+mod 'hpacucli',
+  :git => 'https://github.com/ntnusky/puppet-hpacucli.git'
+
 mod 'galera',
   :git => 'https://github.com/michaeltchapman/puppet-galera.git'
 
