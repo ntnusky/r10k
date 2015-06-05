@@ -66,3 +66,7 @@ mod 'neutron',
 mod 'cinder',
   :git => 'https://github.com/stackforge/puppet-cinder.git',
   :ref => 'stable/juno'
+
+mod 'horizon',
+  :git => 'https://github.com/stackforge/puppet-horizon.git',
+  :ref => 'stable/juno'
