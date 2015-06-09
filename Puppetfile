@@ -50,24 +50,24 @@ mod 'ceph',
 mod 'keystone',
   :git => 'https://github.com/stackforge/puppet-keystone.git',
   :branch => 'stable/juno',
-  :commit => 'eeba1931a7be212b2617bdc300df669024bc1af0'
+  :commit => '85ad4021391fa0decab8da054395b7e714861ecd'
 
 mod 'glance',
   :git => 'https://github.com/stackforge/puppet-glance.git',
-  :ref => 'stable/juno'
+  :branch => 'stable/juno'
 
 mod 'nova',
   :git => 'https://github.com/stackforge/puppet-nova.git',
-  :ref => 'stable/juno'
+  :branch => 'stable/juno'
 
 mod 'neutron',
   :git => 'https://github.com/stackforge/puppet-neutron.git',
-  :ref => 'stable/juno'
+  :branch => 'stable/juno'
 
 mod 'cinder',
   :git => 'https://github.com/stackforge/puppet-cinder.git',
-  :ref => 'stable/juno'
+  :branch => 'stable/juno'
 
 mod 'horizon',
   :git => 'https://github.com/stackforge/puppet-horizon.git',
-  :ref => 'stable/juno'
+  :branch => 'stable/juno'
