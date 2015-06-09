@@ -50,7 +50,6 @@ mod 'ceph',
 mod 'keystone',
   :git => 'https://github.com/stackforge/puppet-keystone.git',
   :branch => 'stable/juno',
-  :commit => '6d1d79ebd5b69a97dfc6e7cf7d5309643ef73492'
 
 mod 'glance',
   :git => 'https://github.com/stackforge/puppet-glance.git',
