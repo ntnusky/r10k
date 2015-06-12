@@ -20,7 +20,8 @@ mod 'stackforge/vswitch'
 mod 'bodepd/scenario_node_terminus',
   :git => 'git://github.com/bodepd/scenario_node_terminus'
 
-# Modules for the controllers
+mod 'ajjahn-dns'
+
 mod 'puppetlabs/rabbitmq'
 mod 'puppetlabs/haproxy'
 mod 'puppetlabs/corosync'
