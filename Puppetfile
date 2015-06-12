@@ -23,7 +23,6 @@ mod 'bodepd/scenario_node_terminus',
   :git => 'git://github.com/bodepd/scenario_node_terminus'
 
 mod 'ajjahn/dns'
-mod 'haraldsk/nfs'
 
 mod 'puppetlabs/rabbitmq'
 mod 'puppetlabs/haproxy'
@@ -32,6 +31,9 @@ mod 'puppetlabs/corosync'
 mod 'arioch/keepalived'
 mod 'duritong/sysctl'
 mod 'saz/memcached'
+
+mod 'nfs',
+  :git => 'https://github.com/echocat/puppet-nfs.git'
 
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git'
