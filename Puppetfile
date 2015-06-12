@@ -23,6 +23,7 @@ mod 'bodepd/scenario_node_terminus',
   :git => 'git://github.com/bodepd/scenario_node_terminus'
 
 mod 'ajjahn/dns'
+mod 'haraldsk/nfs'
 
 mod 'puppetlabs/rabbitmq'
 mod 'puppetlabs/haproxy'
