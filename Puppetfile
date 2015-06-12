@@ -11,6 +11,7 @@ mod 'puppetlabs/ntp'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/xinetd'
 mod 'puppetlabs/java'
+mod 'puppetlabs/puppetdb'
 
 # Misc modules - dependencies
 mod 'nanliu/staging'
@@ -79,4 +80,6 @@ mod 'elasticsearch/logstash'
 mod 'elasticsearch/elasticsearch'
 mod 'evenup/kibana'
 
-
+# Icinga2
+mod 'icinga2',
+  :git => 'https://github.com/Icinga/puppet-icinga2.git'
