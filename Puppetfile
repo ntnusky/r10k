@@ -10,6 +10,7 @@ mod 'puppetlabs/mysql'
 mod 'puppetlabs/ntp'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/xinetd'
+mod 'puppetlabs/java'
 
 # Misc modules - dependencies
 mod 'nanliu/staging'
@@ -71,3 +72,11 @@ mod 'cinder',
 mod 'horizon',
   :git => 'https://github.com/stackforge/puppet-horizon.git',
   :branch => 'stable/juno'
+
+# ELK
+mod 'elasticsearch/logstashforwarder'
+mod 'elasticsearch/logstash'
+mod 'elasticsearch/elasticsearch'
+mod 'evenup/kibana'
+
+
