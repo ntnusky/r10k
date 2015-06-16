@@ -83,7 +83,8 @@ mod 'elasticsearch/logstashforwarder'
 mod 'elasticsearch/logstash'
 mod 'elasticsearch/elasticsearch'
 mod 'evenup/kibana'
-mod 'puppet-lib-file_concat',
+#mod 'ispavailability/file_concat'
+mod 'file_concat',
   :git => 'https://github.com/electrical/puppet-lib-file_concat.git'
 
 # Icinga2
