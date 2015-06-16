@@ -84,8 +84,9 @@ mod 'elasticsearch/logstash'
 mod 'elasticsearch/elasticsearch'
 #mod 'evenup/kibana'
 mod 'kibana',
-  :git => 'https://github.com/evenup/evenup-kibana.git'
-  :branch => 'master':commit => '7d3663a'
+  :git => 'https://github.com/evenup/evenup-kibana.git',
+  :branch => 'master'
+#  :commit => '7d3663a'
 mod 'maestrodev/wget'
 #mod 'ispavailability/file_concat'
 mod 'file_concat',
