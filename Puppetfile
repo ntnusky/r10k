@@ -82,7 +82,10 @@ mod 'horizon',
 mod 'elasticsearch/logstashforwarder'
 mod 'elasticsearch/logstash'
 mod 'elasticsearch/elasticsearch'
-mod 'evenup/kibana'
+#mod 'evenup/kibana'
+mod 'kibana',
+  :git => 'https://github.com/evenup/evenup-kibana.git'
+  :branch => 'master'
 mod 'maestrodev/wget'
 #mod 'ispavailability/file_concat'
 mod 'file_concat',
