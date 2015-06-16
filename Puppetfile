@@ -12,6 +12,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/xinetd'
 mod 'puppetlabs/java'
 mod 'puppetlabs/puppetdb'
+mod 'puppetlabs/lvm'
 
 # Misc modules - dependencies
 mod 'nanliu/staging'
