@@ -87,7 +87,7 @@ mod 'elasticsearch/elasticsearch'
 mod 'kibana',
   :git => 'https://github.com/githubgossin/evenup-kibana.git',
   :branch => 'ubuntu-init-template-fix'
-#  :commit => '7d3663a'
+mod 'jfryman/nginx'
 mod 'maestrodev/wget'
 #mod 'ispavailability/file_concat'
 mod 'file_concat',
