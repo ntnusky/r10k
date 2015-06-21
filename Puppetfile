@@ -44,10 +44,12 @@ mod 'galera',
   :git => 'https://github.com/michaeltchapman/puppet-galera.git'
 
 mod 'role',
-  :git => 'https://github.com/ntnusky/role.git'
+  :git => 'https://github.com/ntnusky/role.git',
+  :branch => 'testing'
 
 mod 'profile',
-  :git => 'https://github.com/ntnusky/profile.git'
+  :git => 'https://github.com/ntnusky/profile.git',
+  :branch => 'testing'
 
 mod 'openstack_extras',
   :git => 'https://github.com/stackforge/puppet-openstack_extras.git'
