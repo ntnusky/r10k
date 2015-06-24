@@ -45,7 +45,6 @@ mod 'galera',
 
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'testing'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
