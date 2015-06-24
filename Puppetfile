@@ -89,6 +89,7 @@ mod 'kibana',
   :branch => 'ubuntu-init-template-fix'
 mod 'jfryman/nginx'
 mod 'maestrodev/wget'
+mod 'leinaddm/htpasswd'
 #mod 'ispavailability/file_concat'
 mod 'file_concat',
   :git => 'https://github.com/electrical/puppet-lib-file_concat.git'
