@@ -94,7 +94,8 @@ mod 'jfryman/nginx'
 mod 'maestrodev/wget'
 mod 'leinaddm/htpasswd'
 mod 'file_concat',
-  :git => 'https://github.com/electrical/puppet-lib-file_concat.git'
+  :git => 'https://github.com/electrical/puppet-lib-file_concat.git',
+  :release => '0.3.0'
 
 # Icinga2
 mod 'icinga2',
