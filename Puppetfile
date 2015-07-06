@@ -92,9 +92,9 @@ mod 'kibana',
 mod 'jfryman/nginx'
 mod 'maestrodev/wget'
 mod 'leinaddm/htpasswd'
-#mod 'ispavailability/file_concat'
-mod 'file_concat',
-  :git => 'https://github.com/electrical/puppet-lib-file_concat.git'
+mod 'ispavailability/file_concat' # Why is the one below used in production?
+#mod 'file_concat',
+#  :git => 'https://github.com/electrical/puppet-lib-file_concat.git'
 
 # Icinga2
 mod 'icinga2',
