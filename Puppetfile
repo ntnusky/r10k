@@ -92,7 +92,7 @@ mod 'kibana',
 mod 'jfryman/nginx'
 mod 'maestrodev/wget'
 mod 'leinaddm/htpasswd'
-mod 'electrical/file_concat' # Why is the one below used in production?
+mod 'electrical/file_concat', "0.3.0" # Why is the one below used in production?
 #mod 'file_concat', "1.8.0"
 #  :git => 'https://github.com/electrical/puppet-lib-file_concat.git'
 
