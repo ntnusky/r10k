@@ -83,7 +83,8 @@ mod 'horizon',
 
 # ELK
 mod 'elasticsearch/logstashforwarder'
-mod 'elasticsearch/logstash'
+mod 'logstash',
+  :git => 'https://github.com/elastic/puppet-logstash.git'
 mod 'elasticsearch/elasticsearch'
 #mod 'evenup/kibana'
 mod 'kibana',
@@ -92,9 +93,8 @@ mod 'kibana',
 mod 'jfryman/nginx'
 mod 'maestrodev/wget'
 mod 'leinaddm/htpasswd'
-mod 'electrical/file_concat', "0.3.0" # Why is the one below used in production?
-#mod 'file_concat', "1.8.0"
-#  :git => 'https://github.com/electrical/puppet-lib-file_concat.git'
+mod 'file_concat',
+  :git => 'https://github.com/electrical/puppet-lib-file_concat.git'
 
 # Icinga2
 mod 'icinga2',
