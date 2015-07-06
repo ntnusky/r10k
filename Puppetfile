@@ -44,10 +44,10 @@ mod 'galera',
   :git => 'https://github.com/michaeltchapman/puppet-galera.git'
 
 mod 'role',
-  :git => 'https://github.com/ntnusky/role.git'
+  :git => 'https://github.com/ntnusky/role.git',
 
 mod 'profile',
-  :git => 'https://github.com/ntnusky/profile.git'
+  :git => 'https://github.com/ntnusky/profile.git',
 
 mod 'openstack_extras',
   :git => 'https://github.com/stackforge/puppet-openstack_extras.git'
@@ -81,7 +81,8 @@ mod 'horizon',
 
 # ELK
 mod 'elasticsearch/logstashforwarder'
-mod 'elasticsearch/logstash'
+mod 'logstash',
+  :git => 'https://github.com/elastic/puppet-logstash.git'
 mod 'elasticsearch/elasticsearch'
 #mod 'evenup/kibana'
 mod 'kibana',
@@ -90,9 +91,9 @@ mod 'kibana',
 mod 'jfryman/nginx'
 mod 'maestrodev/wget'
 mod 'leinaddm/htpasswd'
-#mod 'ispavailability/file_concat'
 mod 'file_concat',
-  :git => 'https://github.com/electrical/puppet-lib-file_concat.git'
+  :git => 'https://github.com/electrical/puppet-lib-file_concat.git',
+  :tag => '0.3.0'
 
 # Icinga2
 mod 'icinga2',
