@@ -44,7 +44,7 @@ mod 'galera',
   :git => 'https://github.com/michaeltchapman/puppet-galera.git'
 
 mod 'role',
-  :git => 'https://github.com/ntnusky/role.git',
+  :git => 'https://github.com/ntnusky/role.git'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git'
