@@ -84,6 +84,10 @@ mod 'horizon',
   :git => 'https://github.com/stackforge/puppet-horizon.git',
   :branch => 'stable/juno'
 
+mod 'heat',
+  :git => 'https://github.com/stackforge/puppet-heat.git',
+  :branch => 'stable/juno'
+
 # ELK
 mod 'elasticsearch/logstashforwarder'
 mod 'logstash',
