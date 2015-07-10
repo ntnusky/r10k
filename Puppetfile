@@ -11,7 +11,7 @@ mod 'puppetlabs/ntp'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/xinetd'
 mod 'puppetlabs/java'
-mod 'puppetlabs/puppetdb'
+mod 'puppetlabs/puppetdb', "3.0.1"
 mod 'puppetlabs/lvm'
 mod 'puppetlabs/vcsrepo'
 
