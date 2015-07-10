@@ -14,7 +14,7 @@ mod 'puppetlabs/java'
 mod 'puppetlabs/puppetdb', "3.0.1"
 mod 'puppetlabs/lvm'
 mod 'puppetlabs/vcsrepo'
-mod 'puppetlabs/postgresql', "3.4.2"
+#mod 'puppetlabs/postgresql', "3.4.2"
 
 # Misc modules - dependencies
 mod 'nanliu/staging'
