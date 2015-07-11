@@ -11,9 +11,10 @@ mod 'puppetlabs/ntp'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/xinetd'
 mod 'puppetlabs/java'
-mod 'puppetlabs/puppetdb'
+mod 'puppetlabs/puppetdb', "3.0.1"
 mod 'puppetlabs/lvm'
 mod 'puppetlabs/vcsrepo'
+#mod 'puppetlabs/postgresql', "3.4.2"
 
 # Misc modules - dependencies
 mod 'nanliu/staging'
@@ -79,6 +80,10 @@ mod 'cinder',
 
 mod 'horizon',
   :git => 'https://github.com/stackforge/puppet-horizon.git',
+  :branch => 'stable/juno'
+
+mod 'heat',
+  :git => 'https://github.com/stackforge/puppet-heat.git',
   :branch => 'stable/juno'
 
 # ELK
