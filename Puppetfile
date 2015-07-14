@@ -95,8 +95,12 @@ mod 'logstash',
 mod 'elasticsearch/elasticsearch'
 #mod 'evenup/kibana'
 mod 'kibana',
-  :git => 'https://github.com/githubgossin/evenup-kibana.git',
-  :branch => 'ubuntu-init-template-fix'
+  :git => 'https://github.com/toepi/evenup-kibana.git',
+  :commit => '15506dd4c47c6f41fc7372be50efad94f96cfe49'
+#
+#mod 'kibana',
+#  :git => 'https://github.com/githubgossin/evenup-kibana.git',
+#  :branch => 'ubuntu-init-template-fix'
 mod 'jfryman/nginx'
 mod 'maestrodev/wget'
 mod 'leinaddm/htpasswd'
