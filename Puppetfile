@@ -11,10 +11,10 @@ mod 'puppetlabs/ntp'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/xinetd'
 mod 'puppetlabs/java'
-mod 'puppetlabs/puppetdb'
+mod 'puppetlabs/puppetdb', "5.0.0"
 mod 'puppetlabs/lvm'
 mod 'puppetlabs/vcsrepo'
-mod 'puppetlabs/postgresql'
+mod 'puppetlabs/postgresql', "4.4.2"
 
 # Misc modules - dependencies
 mod 'nanliu/staging'
