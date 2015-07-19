@@ -111,3 +111,4 @@ mod 'file_concat',
 # Icinga2
 mod 'icinga2',
   :git => 'https://github.com/Icinga/puppet-icinga2.git'
+mod 'icinga/icingaweb2'
