@@ -109,6 +109,7 @@ mod 'file_concat',
   :tag => '0.3.0'
 
 # Icinga2
+mod 'justinclayton/sudo'
 mod 'icinga2',
   :git => 'https://github.com/Icinga/puppet-icinga2.git'
 mod 'icinga/icingaweb2'
