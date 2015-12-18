@@ -11,8 +11,10 @@ mod 'puppetlabs/ntp'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/xinetd'
 mod 'puppetlabs/java'
-mod 'puppetlabs/puppetdb'
+mod 'puppetlabs/puppetdb', "5.0.0"
 mod 'puppetlabs/lvm'
+mod 'puppetlabs/vcsrepo'
+mod 'puppetlabs/postgresql', "4.4.2"
 
 # Misc modules - dependencies
 mod 'nanliu/staging'
@@ -80,6 +82,10 @@ mod 'horizon',
   :git => 'https://github.com/stackforge/puppet-horizon.git',
   :branch => 'stable/juno'
 
+mod 'heat',
+  :git => 'https://github.com/stackforge/puppet-heat.git',
+  :branch => 'stable/juno'
+
 # ELK
 mod 'elasticsearch/logstashforwarder'
 mod 'logstash',
@@ -87,8 +93,12 @@ mod 'logstash',
 mod 'elasticsearch/elasticsearch'
 #mod 'evenup/kibana'
 mod 'kibana',
-  :git => 'https://github.com/githubgossin/evenup-kibana.git',
-  :branch => 'ubuntu-init-template-fix'
+  :git => 'https://github.com/toepi/evenup-kibana.git',
+  :commit => 'a396c01d78d6a15c2422f7e69fb478bb6dd25fdf'
+#
+#mod 'kibana',
+#  :git => 'https://github.com/githubgossin/evenup-kibana.git',
+#  :branch => 'ubuntu-init-template-fix'
 mod 'jfryman/nginx'
 mod 'maestrodev/wget'
 mod 'leinaddm/htpasswd'
@@ -97,5 +107,7 @@ mod 'file_concat',
   :tag => '0.3.0'
 
 # Icinga2
+mod 'justinclayton/sudo'
 mod 'icinga2',
   :git => 'https://github.com/Icinga/puppet-icinga2.git'
+mod 'icinga/icingaweb2'
