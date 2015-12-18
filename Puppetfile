@@ -51,10 +51,10 @@ mod 'profile',
 
 mod 'openstack_extras',
   :git => 'https://github.com/stackforge/puppet-openstack_extras.git'
+  :branch => 'stable/juno'
 
 mod 'ceph',
   :git => 'https://github.com/stackforge/puppet-ceph.git',
-  :commit => '2b0ba61b4697bab2f964321b96afc68340b62636'
 
 mod 'keystone',
   :git => 'https://github.com/stackforge/puppet-keystone.git',
