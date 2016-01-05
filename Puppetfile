@@ -117,3 +117,6 @@ mod 'justinclayton/sudo'
 mod 'icinga2',
   :git => 'https://github.com/Icinga/puppet-icinga2.git'
 mod 'icinga/icingaweb2'
+
+# Munin
+mod 'ssm/munin'
