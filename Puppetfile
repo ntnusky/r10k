@@ -50,10 +50,12 @@ mod 'galera',
   :commit => 'd0f2940cf3654b344b98a4a3769d801281bc4531'
 
 mod 'role',
-  :git => 'https://github.com/ntnusky/role.git'
+  :git => 'https://github.com/ntnusky/role.git',
+  :branch => 'unify'
 
 mod 'profile',
-  :git => 'https://github.com/ntnusky/profile.git'
+  :git => 'https://github.com/ntnusky/profile.git',
+  :branch => 'unify'
 
 mod 'openstack_extras',
   :git => 'https://github.com/stackforge/puppet-openstack_extras.git',
