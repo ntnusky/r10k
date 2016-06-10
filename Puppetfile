@@ -29,7 +29,7 @@ mod 'bodepd/scenario_node_terminus',
 mod 'ajjahn/dns', "2.0.0"
 mod 'ajjahn/network', "0.1.1"
 
-mod 'puppetlabs/rabbitmq', "5.3.1"
+mod 'puppetlabs/rabbitmq', "5.4.0"
 mod 'puppetlabs/haproxy', "1.3.1"
 mod 'puppetlabs/corosync', "0.7.0"
 
