@@ -122,3 +122,6 @@ mod 'icinga/icingaweb2'
 
 # Munin
 mod 'ssm/munin'
+
+mod 'tftp',
+  :git => 'https://github.com/puppetlabs/puppetlabs-tftp'
