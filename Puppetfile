@@ -62,8 +62,8 @@ mod 'openstack_extras',
   :commit => '9bdabc182d54071973cc1dbdc71cb022e7ed7cd2'
 
 mod 'ceph',
-  :git => 'https://github.com/stackforge/puppet-ceph.git',
-  :commit => '998e023d8f20584220d8c4ab2eed27541cd7ef98'
+  :git => 'https://github.com/stackforge/puppet-ceph.git'
+#  :commit => '998e023d8f20584220d8c4ab2eed27541cd7ef98'
 
 mod 'keystone',
   :git => 'https://github.com/stackforge/puppet-keystone.git',
