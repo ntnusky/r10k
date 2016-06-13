@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 # Puppetlabs modules - dependencies
 mod 'puppetlabs/apache', "1.7.1"
-mod 'puppetlabs/apt', "1.8.0"
+mod 'puppetlabs/apt'
 mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/firewall', "1.7.2"
 mod 'puppetlabs/inifile', "1.4.3"
@@ -63,7 +63,7 @@ mod 'openstack_extras',
 
 mod 'ceph',
   :git => 'https://github.com/stackforge/puppet-ceph.git',
-  :commit => 'd387b0725f8eb01f2e9b572f7e3c22d5e00c67d9'
+  :commit => '998e023d8f20584220d8c4ab2eed27541cd7ef98'
 
 mod 'keystone',
   :git => 'https://github.com/stackforge/puppet-keystone.git',
