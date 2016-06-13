@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 # Puppetlabs modules - dependencies
 mod 'puppetlabs/apache', "1.7.1"
-mod 'puppetlabs/apt', "1.8.0"
+mod 'puppetlabs/apt'
 mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/firewall', "1.7.2"
 mod 'puppetlabs/inifile', "1.4.3"
