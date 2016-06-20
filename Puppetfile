@@ -3,7 +3,7 @@ forge "http://forge.puppetlabs.com"
 # Puppetlabs modules - dependencies for the openstack installation
 mod 'puppetlabs/apache', "1.10.0"
 mod 'puppetlabs/apt', "2.2.2"
-mod 'puppetlabs/concat', "2.1.0"
+mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/inifile', "1.5.0"
 mod 'puppetlabs/mysql', "3.8.0"
 mod 'puppetlabs/rabbitmq', "5.4.0"
