@@ -5,7 +5,7 @@ mod 'puppetlabs/apache', "1.10.0"
 mod 'puppetlabs/apt', "2.2.2"
 mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/inifile', "1.5.0"
-mod 'puppetlabs/mysql', "3.8.0"
+mod 'puppetlabs/mysql', "3.6.2"
 mod 'puppetlabs/rabbitmq', "5.4.0"
 mod 'puppetlabs/stdlib', "4.12.0"
 mod 'puppetlabs/xinetd', "2.0.0"
@@ -20,7 +20,8 @@ mod 'puppetlabs/postgresql', "4.4.2"
 
 # Mysql cluster
 mod 'galera',
-  :git => 'https://github.com/michaeltchapman/puppet-galera.git'
+  :git => 'https://github.com/michaeltchapman/puppet-galera.git',
+  :commit => 'd0f2940cf3654b344b98a4a3769d801281bc4531'
 
 # Used by mysql module (at least)
 mod 'nanliu/staging', "1.0.3"
