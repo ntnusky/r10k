@@ -51,11 +51,11 @@ mod 'galera',
 
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'unify'
+  :branch => 'master'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'unify'
+  :branch => 'master'
 
 mod 'openstack_extras',
   :git => 'https://github.com/stackforge/puppet-openstack_extras.git',
