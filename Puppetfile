@@ -46,40 +46,44 @@ mod 'profile',
   :branch => 'kilo'
 
 mod 'ceph',
-  :git => 'https://github.com/stackforge/puppet-ceph.git'
+  :git => 'https://github.com/openstack/puppet-ceph.git'
 #  :commit => '998e023d8f20584220d8c4ab2eed27541cd7ef98'
 
 # The openstack modules
+mod 'openstacklib',
+  :git => 'https://github.com/openstack/puppet-openstacklib.git',
+  :branch => 'stable/kilo'
+
 mod 'openstack_extras',
-  :git => 'https://github.com/stackforge/puppet-openstack_extras.git',
+  :git => 'https://github.com/openstack/puppet-openstack_extras.git',
   :branch => 'stable/kilo'
 
 mod 'keystone',
-  :git => 'https://github.com/stackforge/puppet-keystone.git',
+  :git => 'https://github.com/openstack/puppet-keystone.git',
   :branch => 'stable/kilo'
 
 mod 'glance',
-  :git => 'https://github.com/stackforge/puppet-glance.git',
+  :git => 'https://github.com/openstack/puppet-glance.git',
   :branch => 'stable/kilo'
 
 mod 'nova',
-  :git => 'https://github.com/stackforge/puppet-nova.git',
+  :git => 'https://github.com/openstack/puppet-nova.git',
   :branch => 'stable/kilo'
 
 mod 'neutron',
-  :git => 'https://github.com/stackforge/puppet-neutron.git',
+  :git => 'https://github.com/openstack/puppet-neutron.git',
   :branch => 'stable/kilo'
 
 mod 'cinder',
-  :git => 'https://github.com/stackforge/puppet-cinder.git',
+  :git => 'https://github.com/openstack/puppet-cinder.git',
   :branch => 'stable/kilo'
 
 mod 'horizon',
-  :git => 'https://github.com/stackforge/puppet-horizon.git',
+  :git => 'https://github.com/openstack/puppet-horizon.git',
   :branch => 'stable/kilo'
 
 mod 'heat',
-  :git => 'https://github.com/stackforge/puppet-heat.git',
+  :git => 'https://github.com/openstack/puppet-heat.git',
   :branch => 'stable/kilo'
 
 # ELK
