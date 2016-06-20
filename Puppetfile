@@ -50,6 +50,10 @@ mod 'ceph',
 #  :commit => '998e023d8f20584220d8c4ab2eed27541cd7ef98'
 
 # The openstack modules
+mod 'vswitch',
+  :git => 'https://github.com/openstack/puppet-vswitch.git',
+  :branch => 'stable/kilo'
+
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
   :branch => 'stable/kilo'
