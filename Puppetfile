@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 # Puppetlabs modules - dependencies
 mod 'puppetlabs/apache', "1.7.1"
-mod 'puppetlabs/apt', "1.8.0"
+mod 'puppetlabs/apt'
 mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/firewall', "1.7.2"
 mod 'puppetlabs/inifile', "1.4.3"
@@ -29,7 +29,7 @@ mod 'bodepd/scenario_node_terminus',
 mod 'ajjahn/dns', "2.0.0"
 mod 'ajjahn/network', "0.1.1"
 
-mod 'puppetlabs/rabbitmq', "5.3.1"
+mod 'puppetlabs/rabbitmq', "5.4.0"
 mod 'puppetlabs/haproxy', "1.3.1"
 mod 'puppetlabs/corosync', "0.7.0"
 
@@ -50,18 +50,20 @@ mod 'galera',
   :commit => 'd0f2940cf3654b344b98a4a3769d801281bc4531'
 
 mod 'role',
-  :git => 'https://github.com/ntnusky/role.git'
+  :git => 'https://github.com/ntnusky/role.git',
+  :branch => 'master'
 
 mod 'profile',
-  :git => 'https://github.com/ntnusky/profile.git'
+  :git => 'https://github.com/ntnusky/profile.git',
+  :branch => 'master'
 
 mod 'openstack_extras',
   :git => 'https://github.com/stackforge/puppet-openstack_extras.git',
   :commit => '9bdabc182d54071973cc1dbdc71cb022e7ed7cd2'
 
 mod 'ceph',
-  :git => 'https://github.com/stackforge/puppet-ceph.git',
-  :commit => 'd387b0725f8eb01f2e9b572f7e3c22d5e00c67d9'
+  :git => 'https://github.com/stackforge/puppet-ceph.git'
+#  :commit => '998e023d8f20584220d8c4ab2eed27541cd7ef98'
 
 mod 'keystone',
   :git => 'https://github.com/stackforge/puppet-keystone.git',
@@ -120,3 +122,6 @@ mod 'icinga/icingaweb2'
 
 # Munin
 mod 'ssm/munin'
+
+mod 'tftp',
+  :git => 'https://github.com/puppetlabs/puppetlabs-tftp'
