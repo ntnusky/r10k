@@ -40,11 +40,11 @@ mod 'saz/memcached', "2.8.1"
 
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'master'
+  :branch => 'liberty'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'master'
+  :branch => 'liberty'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git'
@@ -52,43 +52,43 @@ mod 'ceph',
 # The openstack modules
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/kilo'
+  :branch => 'stable/liberty'
 
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/kilo'
+  :branch => 'stable/liberty'
 
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/kilo'
+  :branch => 'stable/liberty'
 
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/kilo'
+  :branch => 'stable/liberty'
 
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/kilo'
+  :branch => 'stable/liberty'
 
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/kilo'
+  :branch => 'stable/liberty'
 
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/kilo'
+  :branch => 'stable/liberty'
 
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/kilo'
+  :branch => 'stable/liberty'
 
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/kilo'
+  :branch => 'stable/liberty'
 
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/kilo'
+  :branch => 'stable/liberty'
 
 # ELK
 #mod 'elasticsearch/logstashforwarder', "0.1.1"
