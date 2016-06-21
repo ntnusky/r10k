@@ -40,15 +40,14 @@ mod 'saz/memcached', "2.8.1"
 
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'kilo'
+  :branch => 'master'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'kilo'
+  :branch => 'master'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git'
-#  :commit => '998e023d8f20584220d8c4ab2eed27541cd7ef98'
 
 # The openstack modules
 mod 'vswitch',
