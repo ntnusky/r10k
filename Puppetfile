@@ -40,11 +40,11 @@ mod 'saz/memcached', "2.8.1"
 
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v0.2.0'
+  :tag => 'v0.3.0'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.2.0'
+  :tag => 'v0.3.0'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git'
