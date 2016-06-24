@@ -47,7 +47,8 @@ mod 'profile',
   :tag => 'v0.4.0'
 
 mod 'ceph',
-  :git => 'https://github.com/openstack/puppet-ceph.git'
+  :git => 'https://github.com/openstack/puppet-ceph.git',
+  :commit => 'df1e04c81c39f33452aaa77063544c4cddb227be'
 
 # The openstack modules
 mod 'vswitch',
@@ -118,7 +119,8 @@ mod 'heat',
 #mod 'icinga/icingaweb2'
 
 # Munin
-mod 'ssm/munin'
+mod 'ssm/munin', "0.1.0
 
 mod 'tftp',
-  :git => 'https://github.com/puppetlabs/puppetlabs-tftp'
+  :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
+  :commit => 'dbe5c027f3bc4e86fb6f9c83a189263fb8bfa4fb'
