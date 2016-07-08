@@ -119,7 +119,7 @@ mod 'heat',
 #mod 'icinga/icingaweb2'
 
 # Munin
-mod 'ssm/munin', "0.1.0
+mod 'ssm/munin', '0.1.0'
 
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
