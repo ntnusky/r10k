@@ -35,7 +35,7 @@ mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
   :commit => '58319c7a80d3206b25a217253fc9dae9e95e543a'
 
-mod 'sgnl05/sssd' "0.3.1"
+mod 'sgnl05/sssd', "0.3.1"
 
 # Used by various openstack modules
 mod 'duritong/sysctl', "0.0.11"
