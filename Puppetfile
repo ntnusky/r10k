@@ -47,7 +47,7 @@ mod 'role',
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'rabbitmqfix'
+  :tag => 'v0.5.2'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
