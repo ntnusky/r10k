@@ -31,6 +31,8 @@ mod 'ajjahn/dns', "2.0.0"
 mod 'ajjahn/network', "0.1.1"
 mod 'arioch/keepalived', "1.2.3"
 mod 'saz/ssh', "2.8.1"
+mod 'saz/sudo', "4.1.0"
+
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
   :commit => '58319c7a80d3206b25a217253fc9dae9e95e543a'
