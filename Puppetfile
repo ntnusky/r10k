@@ -31,9 +31,15 @@ mod 'ajjahn/dns', "2.0.0"
 mod 'ajjahn/network', "0.1.1"
 mod 'arioch/keepalived', "1.2.3"
 mod 'saz/ssh', "2.8.1"
+mod 'saz/sudo', "4.1.0"
+
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
   :commit => '58319c7a80d3206b25a217253fc9dae9e95e543a'
+
+mod 'srvadmin',
+  :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
+  :commit => '51606365e5586f63f27ed6c624053cef02f1ce6e'
 
 mod 'sgnl05/sssd', "0.3.1"
 
@@ -43,11 +49,11 @@ mod 'saz/memcached', "2.8.1"
 
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v0.5.1'
+  :tag => 'v0.5.3'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.5.2'
+  :tag => 'v0.5.3'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
