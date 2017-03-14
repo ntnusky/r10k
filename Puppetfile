@@ -108,6 +108,7 @@ mod 'oslo',
 mod 'sensu-sensu', '2.2.0'
 mod 'lwf-remote_file', '1.1.3'
 mod 'arioch-redis', '1.2.4'
+mod 'yelp-uchiwa', '1.0.1'
 
 # ELK
 #mod 'elasticsearch/logstashforwarder', "0.1.1"
