@@ -49,11 +49,11 @@ mod 'saz/memcached', "2.8.1"
 
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v0.5.3'
+  :branch => 'sensu'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.5.5'
+  :branch => 'sensu'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
@@ -103,6 +103,10 @@ mod 'heat',
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
   :branch => 'stable/newton'
+
+# Sensu
+mod 'sensu-sensu', '2.2.0'
+mod 'lwf-remote_file', '1.1.3'
 
 # ELK
 #mod 'elasticsearch/logstashforwarder', "0.1.1"
