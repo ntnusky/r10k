@@ -42,6 +42,8 @@ mod 'srvadmin',
   :commit => '51606365e5586f63f27ed6c624053cef02f1ce6e'
 
 mod 'sgnl05/sssd', "0.3.1"
+mod 'hwraid',
+  :git => 'https://github.com/Puppet-Finland/puppet-hwraid.git'
 
 # Used by various openstack modules
 mod 'duritong/sysctl', "0.0.11"
