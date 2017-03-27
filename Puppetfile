@@ -42,6 +42,10 @@ mod 'srvadmin',
   :commit => '51606365e5586f63f27ed6c624053cef02f1ce6e'
 
 mod 'sgnl05/sssd', "0.3.1"
+mod 'hwraid',
+  :git => 'https://github.com/Puppet-Finland/puppet-hwraid.git'
+mod 'os',
+  :git => 'https://github.com/Puppet-Finland/os.git'
 
 # Used by various openstack modules
 mod 'duritong/sysctl', "0.0.11"
@@ -49,11 +53,11 @@ mod 'saz/memcached', "2.8.1"
 
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v0.5.3'
+  :tag => 'v0.5.4'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.5.5'
+  :tag => 'v0.5.6'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
@@ -103,6 +107,12 @@ mod 'heat',
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
   :branch => 'stable/newton'
+
+# Sensu
+mod 'sensu-sensu', '2.2.0'
+mod 'lwf-remote_file', '1.1.3'
+mod 'arioch-redis', '1.2.4'
+mod 'yelp-uchiwa', '1.0.1'
 
 # ELK
 #mod 'elasticsearch/logstashforwarder', "0.1.1"
