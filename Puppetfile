@@ -53,7 +53,7 @@ mod 'saz/memcached', "2.8.1"
 
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v0.5.5'
+  :branch => 'cleaning'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
