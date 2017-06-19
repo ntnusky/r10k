@@ -29,7 +29,7 @@ mod 'nanliu/staging', "1.0.3"
 # Used by ntnusky/profile
 mod 'ajjahn/dns', "2.0.0"
 mod 'ajjahn/network', "0.1.1"
-mod 'arioch/keepalived', "1.2.3"
+mod 'arioch/keepalived', "1.2.5"
 mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
 
@@ -53,11 +53,11 @@ mod 'saz/memcached', "2.8.1"
 
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v0.5.5'
+  :tag => 'v0.5.11'
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.5.10'
+  :tag => 'v0.5.11'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
