@@ -13,10 +13,11 @@ mod 'puppetlabs/xinetd', "2.0.0"
 # Other puppetlabs modules - For other modules.
 mod 'puppetlabs/ntp', "4.1.2"
 mod 'puppetlabs/java', "1.6.0"
-mod 'puppetlabs/puppetdb', "5.0.0"
+mod 'puppetlabs/puppetdb', "5.1.2"
 mod 'puppetlabs/lvm', "0.6.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/postgresql', "4.4.2"
+mod 'puppetlabs/firewall', "1.9.0"
 
 # Mysql cluster
 mod 'galera',
@@ -57,7 +58,7 @@ mod 'role',
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.5.11'
+  :tag => 'v0.5.12'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
