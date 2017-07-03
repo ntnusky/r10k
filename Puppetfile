@@ -18,6 +18,7 @@ mod 'puppetlabs/lvm', "0.6.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/postgresql', "4.4.2"
 mod 'puppetlabs/firewall', "1.9.0"
+mod 'puppet/unattended_upgrades', "2.2.0"
 
 # Mysql cluster
 mod 'galera',
