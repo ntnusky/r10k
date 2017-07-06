@@ -59,7 +59,7 @@ mod 'role',
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'sensu-additions'
+  :tag => 'v0.5.15'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
