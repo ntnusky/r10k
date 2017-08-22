@@ -1,5 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
+# A non-relevant change for some testing.
+
 # Puppetlabs modules - dependencies for the openstack installation
 mod 'puppetlabs/apache', "1.10.0"
 mod 'puppetlabs/apt', "2.2.2"
