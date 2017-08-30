@@ -150,4 +150,4 @@ mod 'ssm/munin', '0.1.0'
 
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
-  :commit => 'dbe5c027f3bc4e86fb6f9c83a189263fb8bfa4fb'
+  :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
