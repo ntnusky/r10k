@@ -151,3 +151,7 @@ mod 'ssm/munin', '0.1.0'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
+
+mod 'dhcp',
+  :git => 'https://github.com/voxpupuli/puppet-dhcp.git',
+  :commit => 'b5925938188787faad99fdb52f294796e527a3d1'
