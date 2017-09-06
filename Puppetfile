@@ -31,7 +31,7 @@ mod 'galera',
 mod 'nanliu/staging', "1.0.3"
 
 # Used by ntnusky/profile
-mod 'ajjahn/dns', "2.0.0"
+mod 'ajjahn/dns', "2.1.0"
 mod 'ajjahn/network', "0.1.1"
 mod 'arioch/keepalived', "1.2.5"
 mod 'saz/ssh', "2.8.1"
