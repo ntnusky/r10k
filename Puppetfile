@@ -36,6 +36,7 @@ mod 'example42/network', "3.3.8"
 mod 'arioch/keepalived', "1.2.5"
 mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
+mod 'inkblot/ipcalc', '2.2.0'
 
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
