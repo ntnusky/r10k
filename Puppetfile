@@ -37,7 +37,7 @@ mod 'saz/sudo', "4.1.0"
 
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
-  :commit => '58319c7a80d3206b25a217253fc9dae9e95e543a'
+  :branch => 'dev'
 
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
