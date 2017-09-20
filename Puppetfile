@@ -31,7 +31,10 @@ mod 'galera',
 mod 'nanliu/staging', "1.0.3"
 
 # Used by ntnusky/profile
-mod 'ajjahn/dns', "2.1.0"
+#mod 'ajjahn/dns', "2.1.0"
+mod 'dns',
+  :git => 'https://github.com/ajjahn/puppet-dns.git',
+  :commit => '76c387f394b017cc17a720f5e874213c7f475979'
 mod 'example42/network', "3.3.8"
 mod 'arioch/keepalived', "1.2.5"
 mod 'saz/ssh', "2.8.1"
