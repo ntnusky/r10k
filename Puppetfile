@@ -15,10 +15,10 @@ mod 'puppetlabs/xinetd', "2.0.0"
 # Other puppetlabs modules - For other modules.
 mod 'puppetlabs/ntp', "4.1.2"
 mod 'puppetlabs/java', "1.6.0"
-mod 'puppetlabs/puppetdb', "5.1.2"
+mod 'puppetlabs/puppetdb', "6.0.1"
 mod 'puppetlabs/lvm', "0.6.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
-mod 'puppetlabs/postgresql', "4.4.2"
+mod 'puppetlabs/postgresql', "5.1.0"
 mod 'puppetlabs/firewall', "1.9.0"
 mod 'puppet/unattended_upgrades', "2.2.0"
 
