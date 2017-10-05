@@ -22,6 +22,13 @@ mod 'puppetlabs/postgresql', "5.1.0"
 mod 'puppetlabs/firewall', "1.9.0"
 mod 'puppet/unattended_upgrades', "2.2.0"
 
+mod 'puppet/make', '1.1.0'
+mod 'puppet/r10k', '6.1.0'
+mod 'puppetlabs/git', '0.5.0'
+mod 'puppetlabs/ruby', '1.0.0'
+mod 'puppetlabs/gcc', '0.3.0'
+
+
 # Mysql cluster
 mod 'galera',
   :git => 'https://github.com/michaeltchapman/puppet-galera.git',
