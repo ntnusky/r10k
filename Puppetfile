@@ -1,14 +1,14 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
-mod 'arioch/redis', '1.2.4'
+mod 'arioch/redis', '3.1.0'
 mod 'duritong/sysctl', "0.0.11"
 mod 'example42/network', "3.3.8"
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'puppetlabs/apache', "1.10.0"
-mod 'puppetlabs/apt', "2.2.2"
+mod 'puppetlabs/apt', "2.4.0"
 mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/firewall', "1.9.0"
 mod 'puppetlabs/gcc', '0.3.0'
@@ -35,7 +35,7 @@ mod 'saz/sudo', "4.1.0"
 mod 'ssm/munin', '0.1.0'
 mod 'sensu/sensu', '2.2.0'
 mod 'sgnl05/sssd', "0.3.1"
-mod 'yelp/uchiwa', '1.0.1'
+mod 'yelp/uchiwa', '2.0.0'
 
 # Our roles and profiles
 mod 'role',
