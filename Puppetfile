@@ -13,6 +13,7 @@ mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/firewall', "1.9.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
+mod 'puppetlabs/haproxy', "1.5.0"
 mod 'puppetlabs/inifile', "1.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "0.6.0"
