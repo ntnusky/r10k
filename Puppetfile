@@ -58,7 +58,7 @@ mod 'role',
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.5.18b'
+  :tag => 'v0.5.19'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
