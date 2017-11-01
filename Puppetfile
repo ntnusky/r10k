@@ -7,7 +7,7 @@ mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/inifile', "1.5.0"
 mod 'puppetlabs/mysql', "3.10.0"
 mod 'puppetlabs/rabbitmq', "5.6.0"
-mod 'puppetlabs/stdlib', "4.19.0"
+mod 'puppetlabs/stdlib', "4.12.0"
 mod 'puppetlabs/xinetd', "2.0.0"
 
 # Other puppetlabs modules - For other modules.
