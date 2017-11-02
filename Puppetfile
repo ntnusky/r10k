@@ -7,7 +7,7 @@ mod 'example42/network', "3.3.8"
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
-mod 'puppetlabs/apache', "1.10.0"
+mod 'puppetlabs/apache', "2.1.0"
 mod 'puppetlabs/apt', "2.4.0"
 mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/firewall', "1.9.0"
