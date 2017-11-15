@@ -62,7 +62,7 @@ mod 'profile',
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
-  :commit => 'df1e04c81c39f33452aaa77063544c4cddb227be'
+  :commit => 'ea84cb4c3106de831d4d377e6535fc01c57d4d43'
 
 # The openstack modules
 mod 'vswitch',
