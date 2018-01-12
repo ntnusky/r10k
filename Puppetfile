@@ -64,7 +64,7 @@ mod 'hpacucli',
   :commit => '58319c7a80d3206b25a217253fc9dae9e95e543a'
 mod 'hwraid',
   :git => 'https://github.com/Puppet-Finland/puppet-hwraid.git'
-mod 'libvirt'.
+mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git'
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git'
