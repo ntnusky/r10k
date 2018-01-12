@@ -35,7 +35,7 @@ mod 'saz/sudo', "4.1.0"
 mod 'ssm/munin', '0.1.0'
 mod 'sensu/sensu', '2.2.0'
 mod 'sgnl05/sssd', "0.3.1"
-mod 'thias/libvirt', '1.0.0'
+#mod 'thias/libvirt', '1.0.0'
 mod 'yelp/uchiwa', '2.0.0'
 
 # Our roles and profiles
@@ -64,6 +64,8 @@ mod 'hpacucli',
   :commit => '58319c7a80d3206b25a217253fc9dae9e95e543a'
 mod 'hwraid',
   :git => 'https://github.com/Puppet-Finland/puppet-hwraid.git'
+mod 'libvirt'.
+  :git => 'https://github.com/ntnusky/puppet-libvirt.git'
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git'
 mod 'srvadmin',
