@@ -70,7 +70,7 @@ mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :commit => '51606365e5586f63f27ed6c624053cef02f1ce6e'
+  :commit => '585e348f63c7d4fbb4d88e7a26ada8afc42798a4'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
