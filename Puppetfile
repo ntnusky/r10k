@@ -69,7 +69,7 @@ mod 'libvirt',
   :commit => '815863b1dacdf5ed96fb97ef7b30b62ea7ff45bf'
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git',
-  :commit => 'f8ff06db4bfaa5952f21da9f11171ae97ae82138'
+  :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
   :commit => '585e348f63c7d4fbb4d88e7a26ada8afc42798a4'
