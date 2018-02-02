@@ -35,7 +35,6 @@ mod 'saz/sudo', "4.1.0"
 mod 'ssm/munin', '0.1.0'
 mod 'sensu/sensu', '2.2.0'
 mod 'sgnl05/sssd', "0.3.1"
-#mod 'thias/libvirt', '1.0.0'
 mod 'yelp/uchiwa', '2.0.0'
 
 # Our roles and profiles
@@ -49,7 +48,7 @@ mod 'profile',
 # Misc modules from git.
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
-  :commit => 'df1e04c81c39f33452aaa77063544c4cddb227be'
+  :commit => 'ea84cb4c3106de831d4d377e6535fc01c57d4d43'
 mod 'dhcp',
   :git => 'https://github.com/voxpupuli/puppet-dhcp.git',
   :commit => 'b5925938188787faad99fdb52f294796e527a3d1'
@@ -61,13 +60,16 @@ mod 'galera',
   :tag => '0.0.6'
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
-  :commit => '58319c7a80d3206b25a217253fc9dae9e95e543a'
+  :commit => 'da73b286cca41b614d701b12f10549cc4a76775e'
 mod 'hwraid',
-  :git => 'https://github.com/Puppet-Finland/puppet-hwraid.git'
+  :git => 'https://github.com/Puppet-Finland/puppet-hwraid.git',
+  :commit => 'f8ff06db4bfaa5952f21da9f11171ae97ae82138'
 mod 'libvirt',
-  :git => 'https://github.com/ntnusky/puppet-libvirt.git'
+  :git => 'https://github.com/ntnusky/puppet-libvirt.git',
+  :commit => '815863b1dacdf5ed96fb97ef7b30b62ea7ff45bf'
 mod 'os',
-  :git => 'https://github.com/Puppet-Finland/os.git'
+  :git => 'https://github.com/Puppet-Finland/os.git',
+  :commit => 'f8ff06db4bfaa5952f21da9f11171ae97ae82138'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
   :commit => '585e348f63c7d4fbb4d88e7a26ada8afc42798a4'
