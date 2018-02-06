@@ -43,7 +43,7 @@ mod 'role',
   :tag => 'v0.5.12'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'infrastructure'
+  :tag => 'v0.5.24'
 
 # Misc modules from git.
 mod 'ceph',
