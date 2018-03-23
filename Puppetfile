@@ -23,7 +23,8 @@ mod 'puppetlabs/postgresql', "5.1.0"
 mod 'puppetlabs/puppetdb', "6.0.1"
 mod 'puppetlabs/rabbitmq', "5.6.0"
 mod 'puppetlabs/ruby', '1.0.0'
-mod 'puppetlabs/stdlib', "4.15.0"
+# puppetlabs/stdlib MUST be v4.12.0 while we still have puppet 3.8.0
+mod 'puppetlabs/stdlib', "4.12.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
 mod 'puppet/make', '1.1.0'
