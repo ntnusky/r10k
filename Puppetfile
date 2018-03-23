@@ -23,7 +23,7 @@ mod 'puppetlabs/postgresql', "5.1.0"
 mod 'puppetlabs/puppetdb', "6.0.1"
 mod 'puppetlabs/rabbitmq', "5.6.0"
 mod 'puppetlabs/ruby', '1.0.0'
-mod 'puppetlabs/stdlib', "4.12.0"
+mod 'puppetlabs/stdlib', "4.15.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
 mod 'puppet/make', '1.1.0'
@@ -43,7 +43,7 @@ mod 'role',
   :tag => 'v0.5.25'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.5.25'
+  :tag => 'v0.5.25b'
 
 # Misc modules from git.
 mod 'ceph',
