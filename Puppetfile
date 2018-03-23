@@ -8,7 +8,7 @@ mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'puppetlabs/apache', "2.1.0"
-mod 'puppetlabs/apt', "2.4.0"
+mod 'puppetlabs/apt', "2.2.2"
 mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/firewall', "1.9.0"
 mod 'puppetlabs/gcc', '0.3.0'
@@ -23,7 +23,7 @@ mod 'puppetlabs/postgresql', "5.1.0"
 mod 'puppetlabs/puppetdb', "6.0.1"
 mod 'puppetlabs/rabbitmq', "5.6.0"
 mod 'puppetlabs/ruby', '1.0.0'
-mod 'puppetlabs/stdlib', "4.19.0"
+mod 'puppetlabs/stdlib', "4.12.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
 mod 'puppet/make', '1.1.0'
