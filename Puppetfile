@@ -44,7 +44,7 @@ mod 'role',
   :tag => 'v0.5.25'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.5.25d'
+  :tag => 'v0.5.25e'
 
 # Misc modules from git.
 mod 'ceph',
