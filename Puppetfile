@@ -40,10 +40,10 @@ mod 'yelp/uchiwa', '2.0.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'infrastructure'
+  :tag => 'v.0.5.26'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'infrastructure'
+  :tag => 'v.0.5.26'
 
 # Misc modules from git.
 mod 'ceph',
