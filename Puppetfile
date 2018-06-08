@@ -46,7 +46,7 @@ mod 'profile',
   :tag => 'v1.0.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vN.1.0'
+  :branch => 'ocata'
 
 # Misc modules from git.
 mod 'ceph',
