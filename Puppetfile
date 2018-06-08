@@ -46,7 +46,7 @@ mod 'profile',
   :tag => 'v1.0.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vN.0.0'
+  :tag => 'vN.1.0'
 
 # Misc modules from git.
 mod 'ceph',
@@ -83,34 +83,34 @@ mod 'tftp',
 # Openstack modules
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/ocata'
