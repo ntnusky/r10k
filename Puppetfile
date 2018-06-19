@@ -1,7 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
 # Puppetlabs modules - dependencies for the openstack installation
-mod 'puppetlabs/apache', "1.10.0"
+mod 'puppetlabs/apache', "2.1.0"
 mod 'puppetlabs/apt', "2.2.2"
 mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/inifile', "1.5.0"
@@ -36,8 +36,7 @@ mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
 
 mod 'hpacucli',
-  :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
-  :commit => '58319c7a80d3206b25a217253fc9dae9e95e543a'
+  :git => 'https://github.com/ntnusky/puppet-hpacucli.git'
 
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
@@ -59,7 +58,7 @@ mod 'role',
 
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.5.18b'
+  :tag => 'v0.5.20'
 
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
