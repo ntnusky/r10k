@@ -46,7 +46,7 @@ mod 'profile',
   :tag => 'v1.0.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'queens'
+  :tag => 'vP.0.0'
 
 # Misc modules from git.
 mod 'ceph',
@@ -83,34 +83,34 @@ mod 'tftp',
 # Openstack modules
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/pike'
