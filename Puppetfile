@@ -102,9 +102,6 @@ mod 'neutron',
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
   :branch => 'stable/queens'
-mod 'octavia',
-  :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'stable/queens'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
   :branch => 'stable/queens'
