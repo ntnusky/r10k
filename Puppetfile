@@ -89,7 +89,7 @@ mod 'glance',
   :branch => 'stable/queens'
 mod 'horizon',
   :git => 'https://github.com/obrestad/puppet-horizon.git',
-  :branch => 'master'
+  :branch => 'domaindropdown'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
   :branch => 'stable/queens'
