@@ -43,10 +43,10 @@ mod 'role',
   :tag => 'v1.0.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :commit => 'queens'
+  :tag => 'v1.1.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :commit => 'queens'
+  :tag => 'vQ.0.0'
 
 # Misc modules from git.
 mod 'ceph',
