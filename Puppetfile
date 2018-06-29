@@ -41,10 +41,13 @@ mod 'yelp/uchiwa', '2.0.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v0.5.26'
+  :tag => 'v1.0.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v0.5.26b'
+  :tag => 'v1.1.0'
+mod 'ntnuopenstack',
+  :git => 'https://github.com/ntnusky/ntnuopenstack.git',
+  :tag => 'vQ.0.0'
 
 # Misc modules from git.
 mod 'ceph',
@@ -81,34 +84,34 @@ mod 'tftp',
 # Openstack modules
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/queens'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/queens'
 mod 'horizon',
-  :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/newton'
+  :git => 'https://github.com/obrestad/puppet-horizon.git',
+  :branch => 'domaindropdown'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/queens'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/queens'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/queens'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/queens'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/queens'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/queens'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/queens'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/newton'
+  :branch => 'stable/queens'
