@@ -46,7 +46,7 @@ mod 'profile',
   :branch => 'optionalv6'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vQ.0.0'
+  :branch => 'queensfixes'
 
 # Misc modules from git.
 mod 'ceph',
