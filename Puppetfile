@@ -43,7 +43,7 @@ mod 'role',
   :tag => 'v1.0.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'muninfix'
+  :tag => 'v1.3.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vQ.1.2'
