@@ -22,7 +22,7 @@ mod 'puppetlabs/ntp', "4.1.2"
 mod 'puppetlabs/postgresql', "5.1.0"
 mod 'puppetlabs/puppetdb', "6.0.1"
 mod 'puppetlabs/ruby', '1.0.0'
-mod 'puppetlabs/stdlib', "4.15.0"
+mod 'puppetlabs/stdlib', "4.24.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
 mod 'puppet/archive', "3.0.0"
@@ -34,9 +34,9 @@ mod 'saz/memcached', "2.8.1"
 mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
 mod 'ssm/munin', '0.1.0'
-mod 'sensu/sensu', '2.2.0'
+mod 'sensu/sensu', '2.53.0'
 mod 'sgnl05/sssd', "0.3.1"
-mod 'yelp/uchiwa', '2.0.0'
+mod 'yelp/uchiwa', '2.1.0'
 
 # Our roles and profiles
 mod 'role',
@@ -44,7 +44,7 @@ mod 'role',
   :tag => 'v1.0.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.4.0'
+  :tag => 'v1.4.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vQ.1.4b'
