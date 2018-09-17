@@ -44,10 +44,10 @@ mod 'role',
   :tag => 'v1.0.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.4.1'
+  :branch => 'haopenstack'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vQ.1.4b'
+  :branch => 'hakanin'
 
 # Misc modules from git.
 mod 'ceph',
