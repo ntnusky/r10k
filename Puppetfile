@@ -44,7 +44,7 @@ mod 'role',
   :branch => 'klumpen'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.4.2'
+  :branch => 'klumpen'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vQ.2.1'
