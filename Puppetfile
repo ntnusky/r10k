@@ -44,7 +44,7 @@ mod 'role',
   :tag => 'v1.1.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.4.8'
+  :tag => 'v1.4.9'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vQ.2.2'
@@ -64,7 +64,7 @@ mod 'galera',
   :tag => '0.0.6'
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
-  :commit => 'da73b286cca41b614d701b12f10549cc4a76775e'
+  :tag => '0.3.0'
 mod 'hwraid',
   :git => 'https://github.com/Puppet-Finland/puppet-hwraid.git',
   :commit => 'f8ff06db4bfaa5952f21da9f11171ae97ae82138'
