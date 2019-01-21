@@ -44,7 +44,7 @@ mod 'role',
   :tag => 'v1.1.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'logfix'
+  :tag => 'v1.5.1b'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :branch => 'logfix'
