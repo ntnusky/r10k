@@ -47,7 +47,7 @@ mod 'profile',
   :tag => 'v1.5.1b'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vQ.3.0'
+  :branch => 'horizonfix'
 
 # Misc modules from git.
 mod 'ceph',
