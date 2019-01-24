@@ -44,7 +44,7 @@ mod 'role',
   :tag => 'v1.3.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.5.1b'
+  :branch => 'muninbugs'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vQ.3.1'
