@@ -41,13 +41,13 @@ mod 'yelp/uchiwa', '2.1.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'bird'
+  :tag => 'v1.3.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'bird'
+  :tag => 'v1.6.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'bird'
+  :tag => 'vQ.3.2'
 
 # Misc modules from git.
 mod 'ceph',
