@@ -44,7 +44,7 @@ mod 'role',
   :tag => 'v1.3.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.6.0'
+  :branch => 'sensu-process-checks'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vQ.3.2'
