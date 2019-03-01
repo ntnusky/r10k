@@ -41,10 +41,10 @@ mod 'yelp/uchiwa', '2.1.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'hieraclean'
+  :tag => 'v1.3.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.6.1'
+  :branch => 'hieraclean'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :branch => 'hieraclean'
