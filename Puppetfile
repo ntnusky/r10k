@@ -47,7 +47,7 @@ mod 'profile',
   :branch => 'hieraclean'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'hieraclean'
+  :branch => 'hieracleaning'
 
 # Misc modules from git.
 mod 'ceph',
