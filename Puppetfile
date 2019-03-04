@@ -52,7 +52,7 @@ mod 'ntnuopenstack',
 # Misc modules from git.
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
-  :commit => 'ea84cb4c3106de831d4d377e6535fc01c57d4d43'
+  :commit => 'fbe1128ded9fdeac78b61b13d7597df1ee60c0c6'
 mod 'dhcp',
   :git => 'https://github.com/voxpupuli/puppet-dhcp.git',
   :commit => 'b5925938188787faad99fdb52f294796e527a3d1'
