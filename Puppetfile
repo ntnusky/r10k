@@ -37,7 +37,7 @@ mod 'ssm/munin', '0.1.0'
 mod 'sensu/sensu', '2.53.0'
 mod 'sgnl05/sssd', "0.3.1"
 mod 'yelp/uchiwa', '2.1.0'
-mod 'zeweh/netplan, '0.1.8'
+mod 'zeweh/netplan', '0.1.8'
 
 # Our roles and profiles
 mod 'role',
@@ -45,7 +45,7 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.6.2'
+  :branch => 'bionic'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vQ.3.6'
