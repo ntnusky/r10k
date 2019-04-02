@@ -2,6 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
 mod 'arioch/redis', '3.1.0'
+mod 'camptocamp/systemd', '2.2.0'
 mod 'duritong/sysctl', "0.0.11"
 mod 'example42/network', "3.3.8"
 mod 'inkblot/ipcalc', '2.2.0'
