@@ -47,7 +47,7 @@ mod 'profile',
   :tag => 'v1.6.4'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'novafilters'
+  :tag => 'vQ.3.7'
 
 # Misc modules from git.
 mod 'ceph',
