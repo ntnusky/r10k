@@ -1,14 +1,13 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
-mod 'arioch/redis', '3.1.0'
 mod 'duritong/sysctl', "0.0.11"
 mod 'example42/network', "3.3.8"
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'puppetlabs/apache', "2.1.0"
-mod 'puppetlabs/apt', "2.2.2"
+mod 'puppetlabs/apt', "2.3.0"
 mod 'puppetlabs/concat', "1.2.5"
 mod 'puppetlabs/firewall', "1.9.0"
 mod 'puppetlabs/gcc', '0.3.0'
@@ -29,6 +28,7 @@ mod 'puppet/archive', "3.0.0"
 mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '6.1.0'
 mod 'puppet/rabbitmq', "8.5.0"
+mod 'puppet/redis', "4.0.0"
 mod 'puppet/unattended_upgrades', "2.2.0"
 mod 'saz/memcached', "2.8.1"
 mod 'saz/ssh', "2.8.1"
@@ -48,7 +48,7 @@ mod 'profile',
   :tag => 'v1.7.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vQ.3.6'
+  :tag => 'vQ.3.7'
 
 # Misc modules from git.
 mod 'ceph',
