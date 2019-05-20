@@ -21,6 +21,7 @@ mod 'puppetlabs/ntp', "4.1.2"
 mod 'puppetlabs/postgresql', "5.1.0"
 mod 'puppetlabs/puppetdb', "6.0.1"
 mod 'puppetlabs/ruby', '1.0.0'
+mod 'puppetlabs/translate', '1.2.0'
 mod 'puppetlabs/stdlib', "5.2.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
