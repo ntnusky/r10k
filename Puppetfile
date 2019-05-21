@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
 mod 'duritong/sysctl', "0.0.11"
-mod 'example42/network', "3.3.8"
+mod 'example42/network', "3.5.1"
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
