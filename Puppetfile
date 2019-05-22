@@ -2,7 +2,10 @@ forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
 mod 'duritong/sysctl', "0.0.11"
-mod 'example42/network', "3.5.1"
+#mod 'example42/network', "3.5.1"
+mod 'network',
+  :git => 'https://github.com/ntnusky/puppet-network.git',
+  :commit => '75b5f21394aaaffa8afe618b2b8c5601caecef69'
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
