@@ -52,7 +52,7 @@ mod 'profile',
   :branch => 'bionicfixing'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vQ.3.7'
+  :branch => 'bionic'
 
 # Misc modules from git.
 mod 'ceph',
