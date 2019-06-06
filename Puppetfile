@@ -1,7 +1,9 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
-mod 'duritong/sysctl', "0.0.11"
+mod 'duritong/sysctl',
+  :git => 'https://github.com/duritong/puppet-sysctl.git',
+  :commit => '50000684692b29319e3e9acc604aca05333d3f72'
 #mod 'example42/network', "3.5.1"
 mod 'network',
   :git => 'https://github.com/ntnusky/puppet-network.git',
