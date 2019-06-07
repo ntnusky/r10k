@@ -71,7 +71,7 @@ mod 'galera',
   :tag => '0.0.6'
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
-  :tag => '0.3.0'
+  :commit => 'f00d4163f3b3224f52b7a1eb760ef1c79ba48bc4'
 mod 'hwraid',
   :git => 'https://github.com/ntnusky/puppet-hwraid.git',
   :commit => '44e1dc13a7ab098056e538a53e243e2292c9a7e7'
