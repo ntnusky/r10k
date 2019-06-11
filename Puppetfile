@@ -6,8 +6,8 @@ mod 'duritong/sysctl',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
 #mod 'example42/network', "3.5.1"
 mod 'network',
-  :git => 'https://github.com/ntnusky/puppet-network.git',
-  :commit => '75b5f21394aaaffa8afe618b2b8c5601caecef69'
+  :git => 'https://github.com/example42/puppet-network.git',
+  :commit => 'df75f5b19d656ee21f1e9bd093d16b42c46d78d1'
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
