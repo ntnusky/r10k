@@ -1,14 +1,19 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
-mod 'duritong/sysctl', "0.0.11"
-mod 'example42/network', "3.3.8"
+mod 'duritong/sysctl',
+  :git => 'https://github.com/duritong/puppet-sysctl.git',
+  :commit => '50000684692b29319e3e9acc604aca05333d3f72'
+#mod 'example42/network', "3.5.1"
+mod 'network',
+  :git => 'https://github.com/example42/puppet-network.git',
+  :commit => 'df75f5b19d656ee21f1e9bd093d16b42c46d78d1'
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
-mod 'puppetlabs/apache', "2.1.0"
-mod 'puppetlabs/apt', "2.3.0"
-mod 'puppetlabs/concat', "1.2.5"
+mod 'puppetlabs/apache', "4.1.0"
+mod 'puppetlabs/apt', "7.0.1"
+mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "1.9.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
@@ -21,6 +26,7 @@ mod 'puppetlabs/ntp', "4.1.2"
 mod 'puppetlabs/postgresql', "5.1.0"
 mod 'puppetlabs/puppetdb', "6.0.1"
 mod 'puppetlabs/ruby', '1.0.0'
+mod 'puppetlabs/translate', '1.2.0'
 mod 'puppetlabs/stdlib', "5.2.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
@@ -45,10 +51,10 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.7.0'
+  :tag => 'v1.7.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vQ.3.7'
+  :tag => 'vQ.4.0'
 
 # Misc modules from git.
 mod 'ceph',
@@ -65,19 +71,19 @@ mod 'galera',
   :tag => '0.0.6'
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
-  :tag => '0.3.0'
+  :tag => '0.4.0'
 mod 'hwraid',
-  :git => 'https://github.com/Puppet-Finland/puppet-hwraid.git',
-  :commit => 'f8ff06db4bfaa5952f21da9f11171ae97ae82138'
+  :git => 'https://github.com/ntnusky/puppet-hwraid.git',
+  :commit => '44e1dc13a7ab098056e538a53e243e2292c9a7e7'
 mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git',
-  :commit => '815863b1dacdf5ed96fb97ef7b30b62ea7ff45bf'
+  :commit => '8b3e9b42a014eed21a95048420b6e1c0b57f6e1b'
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :commit => '585e348f63c7d4fbb4d88e7a26ada8afc42798a4'
+  :commit => '9a4d6eed0fb0864630ac112ef589a0dff7b5e2a1'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
