@@ -51,10 +51,10 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'bionicfixing'
+  :tag => 'v1.7.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'bionic'
+  :tag => 'vQ.4.0'
 
 # Misc modules from git.
 mod 'ceph',
