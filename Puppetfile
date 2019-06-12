@@ -43,7 +43,10 @@ mod 'ssm/munin', '0.1.0'
 mod 'sensu/sensu', '2.53.0'
 mod 'sgnl05/sssd', "0.3.1"
 mod 'yelp/uchiwa', '2.1.0'
-mod 'zehweh/netplan', '0.1.8'
+#mod 'zehweh/netplan', '0.1.8'
+mod 'netplan',
+  :git => 'https://github.com/ntnusky/puppet-netplan.git',
+  :commit => 'a134654121e0432d8a4dd9009be3bad1ab6fc27d'
 
 # Our roles and profiles
 mod 'role',
@@ -51,7 +54,7 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.7.1'
+  :tag => 'v1.7.2'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vQ.4.0'
