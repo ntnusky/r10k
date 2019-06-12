@@ -46,7 +46,7 @@ mod 'yelp/uchiwa', '2.1.0'
 #mod 'zehweh/netplan', '0.1.8'
 mod 'netplan',
   :git => 'https://github.com/ntnusky/puppet-netplan.git',
-  :branch => 'routefix'
+  :commit => 'a134654121e0432d8a4dd9009be3bad1ab6fc27d'
 
 # Our roles and profiles
 mod 'role',
