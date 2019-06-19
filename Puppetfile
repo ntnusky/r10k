@@ -35,7 +35,7 @@ mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '6.1.0'
 mod 'puppet/rabbitmq', "8.5.0"
 mod 'puppet/redis', "4.0.0"
-mod 'puppet/unattended_upgrades', "2.2.0"
+mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'saz/memcached', "2.8.1"
 mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
