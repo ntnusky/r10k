@@ -55,10 +55,10 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'rocky'
+  :branch => 'stein'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'rocky'
+  :branch => 'stein'
 
 # Misc modules from git.
 mod 'ceph',
@@ -95,34 +95,34 @@ mod 'tftp',
 # Openstack modules
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/rocky'
+  :branch => 'stable/stein'
