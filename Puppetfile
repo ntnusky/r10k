@@ -1,6 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
+mod 'camptocamp/kmod', "2.3.1"
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
@@ -18,10 +19,10 @@ mod 'puppetlabs/firewall', "1.9.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
 mod 'puppetlabs/haproxy', "1.5.0"
-mod 'puppetlabs/inifile', "1.5.0"
+mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "0.6.0"
-mod 'puppetlabs/mysql', "3.10.0"
+mod 'puppetlabs/mysql', "10.2.0"
 mod 'puppetlabs/ntp', "4.1.2"
 mod 'puppetlabs/postgresql', "5.1.0"
 mod 'puppetlabs/puppetdb', "6.0.1"
@@ -54,10 +55,10 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.9.0'
+  :branch => 'v1.10.2'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vQ.4.0'
+  :branch => 'vS.0.0'
 
 # Misc modules from git.
 mod 'ceph',
@@ -94,34 +95,34 @@ mod 'tftp',
 # Openstack modules
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'horizon',
-  :git => 'https://github.com/obrestad/puppet-horizon.git',
-  :branch => 'domaindropdown'
+  :git => 'https://github.com/openstack/puppet-horizon.git',
+  :branch => 'stable/stein'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
