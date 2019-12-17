@@ -55,7 +55,7 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'mtuandvswitch'
+  :branch => 'moremtu'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vS.0.0'
