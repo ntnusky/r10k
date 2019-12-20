@@ -55,10 +55,10 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'moremtu'
+  :tag => 'v1.11.2'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'vswitchconflict'
+  :tag => 'vS.1.2'
 
 # Misc modules from git.
 mod 'ceph',
