@@ -58,7 +58,7 @@ mod 'profile',
   :branch => 'multiv6anycast'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vS.1.2'
+  :branch => 'mysqlbindings'
 
 # Misc modules from git.
 mod 'ceph',
