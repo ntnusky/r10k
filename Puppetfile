@@ -55,10 +55,10 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'multiv6anycast'
+  :tag => 'v1.11.3'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'mysqlbindings'
+  :tag => 'vS.1.3'
 
 # Misc modules from git.
 mod 'ceph',
