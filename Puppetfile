@@ -59,7 +59,7 @@ mod 'profile',
   :tag => 'v1.11.4'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vS.1.2'
+  :tag => 'vS.1.3'
 
 # Misc modules from git.
 mod 'ceph',
