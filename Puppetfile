@@ -1,6 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
+mod 'camptocamp/kmod', "2.3.1"
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
@@ -8,6 +9,7 @@ mod 'duritong/sysctl',
 mod 'network',
   :git => 'https://github.com/example42/puppet-network.git',
   :commit => 'df75f5b19d656ee21f1e9bd093d16b42c46d78d1'
+mod 'fraenki/galera', '1.0.6'
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
@@ -18,10 +20,10 @@ mod 'puppetlabs/firewall', "1.9.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
 mod 'puppetlabs/haproxy', "1.5.0"
-mod 'puppetlabs/inifile', "1.5.0"
+mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "0.6.0"
-mod 'puppetlabs/mysql', "3.10.0"
+mod 'puppetlabs/mysql', "10.2.0"
 mod 'puppetlabs/ntp', "4.1.2"
 mod 'puppetlabs/postgresql', "5.1.0"
 mod 'puppetlabs/puppetdb', "6.0.1"
@@ -54,10 +56,10 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.9.0'
+  :tag => 'v1.11.4'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vQ.4.0'
+  :tag => 'vS.1.3'
 
 # Misc modules from git.
 mod 'ceph',
@@ -69,9 +71,6 @@ mod 'dhcp',
 mod 'dns',
   :git => 'https://github.com/ajjahn/puppet-dns.git',
   :commit => '76c387f394b017cc17a720f5e874213c7f475979'
-mod 'galera',
-  :git => 'https://github.com/michaeltchapman/puppet-galera.git',
-  :tag => '0.0.6'
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
   :tag => '0.4.0'
@@ -94,34 +93,34 @@ mod 'tftp',
 # Openstack modules
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'horizon',
-  :git => 'https://github.com/obrestad/puppet-horizon.git',
-  :branch => 'domaindropdown'
+  :git => 'https://github.com/openstack/puppet-horizon.git',
+  :branch => 'stable/stein'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/queens'
+  :branch => 'stable/stein'
