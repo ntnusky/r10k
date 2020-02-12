@@ -9,6 +9,7 @@ mod 'duritong/sysctl',
 mod 'network',
   :git => 'https://github.com/example42/puppet-network.git',
   :commit => 'df75f5b19d656ee21f1e9bd093d16b42c46d78d1'
+mod 'fraenki/galera', '1.0.6'
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
@@ -55,10 +56,10 @@ mod 'role',
   :tag => 'v1.3.2'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.11.2'
+  :tag => 'v1.11.6'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vS.1.2'
+  :tag => 'vS.1.3'
 
 # Misc modules from git.
 mod 'ceph',
@@ -70,9 +71,6 @@ mod 'dhcp',
 mod 'dns',
   :git => 'https://github.com/ajjahn/puppet-dns.git',
   :commit => '76c387f394b017cc17a720f5e874213c7f475979'
-mod 'galera',
-  :git => 'https://github.com/michaeltchapman/puppet-galera.git',
-  :tag => '0.0.6'
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
   :tag => '0.4.0'
