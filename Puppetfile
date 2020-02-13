@@ -59,7 +59,7 @@ mod 'profile',
   :branch => 'nomoreinsights'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vS.1.3'
+  :branch => 'neutronmunin'
 
 # Misc modules from git.
 mod 'ceph',
