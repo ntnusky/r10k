@@ -59,7 +59,7 @@ mod 'profile',
   :tag => 'v1.11.7'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vS.1.4'
+  :branch => 'barbican'
 
 # Misc modules from git.
 mod 'ceph',
@@ -91,6 +91,9 @@ mod 'tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
 
 # Openstack modules
+mod 'barbican',
+  :git => 'https://github.com/openstack/puppet-barbican.git',
+  :branch => 'stable/stein'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
   :branch => 'stable/stein'
