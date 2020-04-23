@@ -14,7 +14,7 @@ mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'puppetlabs/apache', "4.1.0"
-mod 'puppetlabs/apt', "7.0.1"
+mod 'puppetlabs/apt', "7.1.0"
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "1.9.0"
 mod 'puppetlabs/gcc', '0.3.0'
@@ -53,13 +53,13 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'barbican'
+  :branch => 'v1.5.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.11.7'
+  :tag => 'v1.11.8'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'barbican'
+  :tag => 'vS.3.0'
 
 # Misc modules from git.
 mod 'ceph',
@@ -114,6 +114,9 @@ mod 'neutron',
   :branch => 'stable/stein'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
+  :branch => 'stable/stein'
+mod 'octavia',
+  :git => 'https://github.com/openstack/puppet-octavia.git',
   :branch => 'stable/stein'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
