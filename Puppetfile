@@ -56,7 +56,7 @@ mod 'role',
   :branch => 'v1.5.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.11.8'
+  :tag => 'v1.11.9'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vS.3.0'
