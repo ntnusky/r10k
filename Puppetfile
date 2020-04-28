@@ -109,6 +109,9 @@ mod 'heat',
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
   :branch => 'stable/stein'
+mod 'magnum',
+  :git => 'https://github.com/openstack/puppet-magnum.git',
+  :branch => 'stable/stein'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
   :branch => 'stable/stein'
