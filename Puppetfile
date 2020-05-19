@@ -57,7 +57,7 @@ mod 'role',
   :branch => 'magnum'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.11.10'
+  :branch => 'magnum'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :branch => 'magnum'
