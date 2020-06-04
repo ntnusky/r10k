@@ -5,10 +5,7 @@ mod 'camptocamp/kmod', "2.3.1"
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
-#mod 'example42/network', "3.5.1"
-mod 'network',
-  :git => 'https://github.com/example42/puppet-network.git',
-  :commit => 'df75f5b19d656ee21f1e9bd093d16b42c46d78d1'
+mod 'example42/network', "3.5.3"
 mod 'fraenki/galera', '1.0.6'
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
