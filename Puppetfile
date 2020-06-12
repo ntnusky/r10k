@@ -37,6 +37,7 @@ mod 'puppet/r10k', '6.1.0'
 mod 'puppet/rabbitmq', "8.5.0"
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/unattended_upgrades', "4.0.0"
+mod 'puppet/yum', '4.2.0'
 mod 'saz/memcached', "2.8.1"
 mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
@@ -85,7 +86,7 @@ mod 'os',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :commit => '9a4d6eed0fb0864630ac112ef589a0dff7b5e2a1'
+  :branch => 'centos'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
