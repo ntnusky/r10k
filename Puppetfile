@@ -31,13 +31,13 @@ mod 'puppetlabs/translate', '1.2.0'
 mod 'puppetlabs/stdlib', "5.2.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
+mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '6.1.0'
 mod 'puppet/rabbitmq', "8.5.0"
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/unattended_upgrades', "4.0.0"
-mod 'puppet/yum', '4.2.0'
 mod 'saz/memcached', "2.8.1"
 mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
