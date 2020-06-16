@@ -60,7 +60,7 @@ mod 'profile',
   :branch => 'centos'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vS.3.0'
+  :branch => 'centos'
 
 # Misc modules from git.
 mod 'ceph',
