@@ -54,7 +54,7 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'v1.5.0'
+  :branch => 'centos'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :branch => 'centos'
