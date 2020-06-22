@@ -88,7 +88,7 @@ mod 'os',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :commit => '9a4d6eed0fb0864630ac112ef589a0dff7b5e2a1'
+  :tag => 'v1.0.0'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
