@@ -2,6 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
+mod 'camptocamp/systemd', "2.9.0"
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
@@ -37,6 +38,7 @@ mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '6.1.0'
 mod 'puppet/rabbitmq', "8.5.0"
 mod 'puppet/redis', "4.0.0"
+mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'saz/memcached', "2.8.1"
 mod 'saz/ssh', "2.8.1"
@@ -54,13 +56,13 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.6.0'
+  :tag => 'v1.7.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.12.0'
+  :tag => 'v1.12.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vS.4.0'
+  :tag => 'vS.5.0'
 
 # Misc modules from git.
 mod 'ceph',
@@ -109,6 +111,9 @@ mod 'heat',
   :branch => 'stable/stein'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
+  :branch => 'stable/stein'
+mod 'magnum',
+  :git => 'https://github.com/openstack/puppet-magnum.git',
   :branch => 'stable/stein'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
