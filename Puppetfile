@@ -62,7 +62,7 @@ mod 'profile',
   :tag => 'v1.12.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vS.5.0'
+  :branch => 'magnumui'
 
 # Misc modules from git.
 mod 'ceph',
