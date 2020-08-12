@@ -2,14 +2,14 @@ forge "http://forge.puppetlabs.com"
 
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
+mod 'camptocamp/systemd', "2.9.0"
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
-#mod 'example42/network', "3.5.1"
-mod 'network',
-  :git => 'https://github.com/example42/puppet-network.git',
-  :commit => 'df75f5b19d656ee21f1e9bd093d16b42c46d78d1'
+mod 'example42/network', "3.5.3"
 mod 'fraenki/galera', '1.0.6'
+mod 'herculesteam-augeasproviders_core', '2.6.0'
+mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
@@ -32,11 +32,13 @@ mod 'puppetlabs/translate', '1.2.0'
 mod 'puppetlabs/stdlib', "5.2.0"
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
+mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '6.1.0'
 mod 'puppet/rabbitmq', "8.5.0"
 mod 'puppet/redis', "4.0.0"
+mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'saz/memcached', "2.8.1"
 mod 'saz/ssh', "2.8.1"
@@ -44,6 +46,7 @@ mod 'saz/sudo', "4.1.0"
 mod 'ssm/munin', '0.1.0'
 mod 'sensu/sensu', '2.53.0'
 mod 'sgnl05/sssd', "0.3.1"
+mod 'treydock/yum_cron', "5.1.0"
 mod 'yelp/uchiwa', '2.1.0'
 #mod 'zehweh/netplan', '0.1.8'
 mod 'netplan',
@@ -53,13 +56,13 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'v1.5.0'
+  :tag => 'v1.7.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.11.10'
+  :tag => 'v1.12.2'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vS.3.0'
+  :tag => 'vS.5.1'
 
 # Misc modules from git.
 mod 'ceph',
@@ -85,7 +88,7 @@ mod 'os',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :commit => '9a4d6eed0fb0864630ac112ef589a0dff7b5e2a1'
+  :tag => 'v1.0.0'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
@@ -108,6 +111,9 @@ mod 'heat',
   :branch => 'stable/stein'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
+  :branch => 'stable/stein'
+mod 'magnum',
+  :git => 'https://github.com/openstack/puppet-magnum.git',
   :branch => 'stable/stein'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
