@@ -56,13 +56,13 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'placement'
+  :tag => 'v1.8.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'placement'
+  :tag => 'v1.13.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'placement'
+  :tag => 'vS.6.0'
 
 # Misc modules from git.
 mod 'ceph',
