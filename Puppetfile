@@ -56,13 +56,13 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.7.0'
+  :tag => 'v1.8.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :tag => 'v1.13.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vS.5.2'
+  :tag => 'vS.6.1'
 
 # Misc modules from git.
 mod 'ceph',
@@ -132,6 +132,9 @@ mod 'openstacklib',
   :branch => 'stable/stein'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
+  :branch => 'stable/stein'
+mod 'placement',
+  :git => 'https://github.com/openstack/puppet-placement.git',
   :branch => 'stable/stein'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
