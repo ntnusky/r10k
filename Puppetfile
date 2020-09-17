@@ -63,7 +63,7 @@ mod 'profile',
   :branch => 'filebeat'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vT.0.0'
+  :tag => 'vT.0.1'
 
 # Misc modules from git.
 mod 'ceph',
