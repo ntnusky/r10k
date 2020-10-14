@@ -59,7 +59,7 @@ mod 'role',
   :tag => 'v1.8.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.13.2'
+  :branch => 'logrotation'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :branch => 'ussuri'
