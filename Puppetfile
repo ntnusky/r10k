@@ -59,7 +59,7 @@ mod 'role',
   :tag => 'v1.8.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'munin-snmp'
+  :tag => 'v1.15.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vT.0.2'
