@@ -14,7 +14,7 @@ mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
-mod 'puppetlabs/apache', "4.1.0"
+mod 'puppetlabs/apache', "5.6.0"
 mod 'puppetlabs/apt', "7.1.0"
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "1.9.0"
