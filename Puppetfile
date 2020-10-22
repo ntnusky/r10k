@@ -59,7 +59,7 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.8.0'
+  :branch => 'mysqlstandalone'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :branch => 'sldev'
