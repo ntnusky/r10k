@@ -65,7 +65,7 @@ mod 'profile',
   :tag => 'v1.16.2'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vU.0.0'
+  :branch => 'cinderpools'
 
 # Misc modules from git.
 mod 'ceph',
