@@ -65,7 +65,7 @@ mod 'profile',
   :tag => 'v1.16.2'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'cephrepofix'
+  :tag => 'vU.1.1'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
