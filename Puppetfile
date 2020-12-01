@@ -62,15 +62,13 @@ mod 'role',
   :tag => 'v1.9.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.16.2'
+  :tag => 'v1.16.3'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vU.1.0'
+  :tag => 'vU.1.2'
 
 # Misc modules from git.
-mod 'ceph',
-  :git => 'https://github.com/openstack/puppet-ceph.git',
-  :commit => 'a09926aa2d6c0127ca13eeb94303680c5eac86ea'
+mod 'openstack/ceph', '3.1.1'
 mod 'dhcp',
   :git => 'https://github.com/voxpupuli/puppet-dhcp.git',
   :commit => 'b5925938188787faad99fdb52f294796e527a3d1'
