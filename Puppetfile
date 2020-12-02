@@ -106,7 +106,7 @@ mod 'glance',
   :branch => 'stable/ussuri'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/ussuri'
+  :branch => 'stable/victoria'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
   :branch => 'stable/ussuri'
@@ -127,10 +127,10 @@ mod 'octavia',
   :branch => 'stable/ussuri'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/ussuri'
+  :branch => 'stable/victoria'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/ussuri'
+  :branch => 'stable/victoria'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
   :branch => 'stable/ussuri'
