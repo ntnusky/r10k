@@ -65,7 +65,7 @@ mod 'profile',
   :branch => 'munin-vgpu-ceph'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vU.1.3'
+  :branch => 'munin-vgpu-ceph'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
