@@ -127,7 +127,8 @@ mod 'octavia',
   :branch => 'stable/ussuri'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/victoria'
+#  :branch => 'stable/victoria'
+  :commit => '14d8364f102f5820e19cd6a8b7e481c79374f4ca'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
   :branch => 'stable/victoria'
