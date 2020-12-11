@@ -62,10 +62,10 @@ mod 'role',
   :tag => 'v1.9.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'munin-vgpu-ceph'
+  :tag => 'v1.16.5'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'munin-vgpu-ceph'
+  :tag => 'vU.1.6'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
