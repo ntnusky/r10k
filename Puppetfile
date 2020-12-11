@@ -59,13 +59,13 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.9.0'
+  :tag => 'v1.9.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.16.4'
+  :tag => 'v1.16.5'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vU.1.5'
+  :tag => 'vU.1.6'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
