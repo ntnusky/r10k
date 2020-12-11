@@ -59,7 +59,7 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.9.0'
+  :tag => 'v1.9.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :tag => 'v1.16.5'
