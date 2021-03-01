@@ -65,7 +65,7 @@ mod 'profile',
   :tag => 'v1.16.5'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vU.1.8'
+  :branch => 'cinder-retype-fix'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
