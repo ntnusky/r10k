@@ -3,7 +3,7 @@ forge "http://forge.puppetlabs.com"
 mod 'aboe/chrony', '0.3.2'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
-mod 'camptocamp/systemd', "2.9.0"
+mod 'camptocamp/systemd', "2.12.0"
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
@@ -37,7 +37,7 @@ mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '6.1.0'
-mod 'puppet/rabbitmq', "8.5.0"
+mod 'puppet/rabbitmq', "11.0.0"
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
