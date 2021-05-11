@@ -65,7 +65,7 @@ mod 'profile',
   :tag => 'v1.17.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'portsec'
+  :tag => 'vU.1.11'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
