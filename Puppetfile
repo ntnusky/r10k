@@ -35,6 +35,7 @@ mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
 mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
+mod 'puppet/logrotate', '5.0.0'
 mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '6.1.0'
 mod 'puppet/rabbitmq', "11.0.0"
@@ -62,7 +63,7 @@ mod 'role',
   :tag => 'v1.9.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.17.2'
+  :tag => 'v1.17.3'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vU.1.11'
