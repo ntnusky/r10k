@@ -1,6 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'aboe/chrony', '0.3.2'
+mod 'Aethylred/rrd', '0.1.3'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
 mod 'camptocamp/systemd', "2.12.0"
@@ -46,7 +47,7 @@ mod 'saz/memcached', "2.8.1"
 mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
 mod 'saz/timezone', '6.0.0'
-mod 'ssm/munin', '0.1.0'
+mod 'ssm/munin', '0.3.0'
 mod 'stm/debconf', '3.2.0'
 mod 'sensu/sensu', '2.53.0'
 mod 'sgnl05/sssd', "0.3.1"
@@ -63,7 +64,7 @@ mod 'role',
   :tag => 'v1.9.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.17.3'
+  :tag => 'munintuning'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vU.1.11'
