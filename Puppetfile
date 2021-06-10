@@ -1,7 +1,6 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'aboe/chrony', '0.3.2'
-mod 'Aethylred/rrd', '0.1.3'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
 mod 'camptocamp/systemd', "2.12.0"
@@ -89,6 +88,9 @@ mod 'libvirt',
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
+mod 'rrd',
+  :git => 'https://github.com/ntnusky/puppet-rrd.git',
+  :branch => 'ntnusky'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
   :tag => 'v1.0.0'
