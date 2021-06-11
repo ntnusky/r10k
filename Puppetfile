@@ -90,7 +90,7 @@ mod 'os',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
 mod 'rrd',
   :git => 'https://github.com/ntnusky/puppet-rrd.git',
-  :branch => 'ntnusky'
+  :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
   :tag => 'v1.0.0'
