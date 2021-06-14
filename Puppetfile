@@ -46,7 +46,7 @@ mod 'saz/memcached', "2.8.1"
 mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
 mod 'saz/timezone', '6.0.0'
-mod 'ssm/munin', '0.1.0'
+mod 'ssm/munin', '0.3.0'
 mod 'stm/debconf', '3.2.0'
 mod 'sensu/sensu', '2.53.0'
 mod 'sgnl05/sssd', "0.3.1"
@@ -63,7 +63,7 @@ mod 'role',
   :tag => 'v1.9.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.17.3'
+  :tag => 'v1.17.4'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vU.1.11'
@@ -88,6 +88,9 @@ mod 'libvirt',
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
+mod 'rrd',
+  :git => 'https://github.com/ntnusky/puppet-rrd.git',
+  :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
   :tag => 'v1.0.0'
