@@ -37,7 +37,7 @@ mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/logrotate', '5.0.0'
 mod 'puppet/make', '1.1.0'
-mod 'puppet/r10k', '6.1.0'
+mod 'puppet/r10k', '9.0.0'
 mod 'puppet/rabbitmq', "11.0.0"
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
