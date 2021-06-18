@@ -37,7 +37,12 @@ mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/logrotate', '5.0.0'
 mod 'puppet/make', '1.1.0'
-mod 'puppet/r10k', '9.0.0'
+# Need to grab r10k from github when running puppet7, until they release a newer
+# version than v9. We need commit 1c054cc3c932b0a1fbd22510af28046d91a3490e
+#mod 'puppet/r10k', '9.0.0'
+mod 'r10k',
+  :git => 'https://github.com/voxpupuli/puppet-r10k.git',
+  :commit => 'c03a24e2555775887c171e4d52b899d6421d7da8'
 mod 'puppet/rabbitmq', "11.0.0"
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
