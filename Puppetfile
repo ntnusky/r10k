@@ -53,7 +53,7 @@ mod 'saz/sudo', "4.1.0"
 mod 'saz/timezone', '6.0.0'
 mod 'ssm/munin', '0.3.0'
 mod 'stm/debconf', '3.2.0'
-mod 'sensu/sensu', '2.53.0'
+mod 'sensu/sensu', '2.63.0'
 mod 'sgnl05/sssd', "0.3.1"
 mod 'treydock/yum_cron', "5.1.0"
 mod 'yelp/uchiwa', '2.1.0'
