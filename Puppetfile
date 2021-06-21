@@ -18,6 +18,7 @@ mod 'puppetlabs/apache', "5.6.0"
 mod 'puppetlabs/apt', "7.1.0"
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "1.9.0"
+mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
 mod 'puppetlabs/haproxy', "1.5.0"
@@ -27,6 +28,7 @@ mod 'puppetlabs/lvm', "0.6.0"
 mod 'puppetlabs/mysql', "10.2.0"
 mod 'puppetlabs/ntp', "4.1.2"
 mod 'puppetlabs/postgresql', "5.1.0"
+mod 'puppetlabs/puppet_agent', "4.7.0"
 mod 'puppetlabs/puppetdb', "6.0.1"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
