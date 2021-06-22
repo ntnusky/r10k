@@ -17,7 +17,7 @@ mod 'nanliu/staging', "1.0.3"
 mod 'puppetlabs/apache', "5.6.0"
 mod 'puppetlabs/apt', "7.1.0"
 mod 'puppetlabs/concat', "5.3.0"
-mod 'puppetlabs/firewall', "1.9.0"
+mod 'puppetlabs/firewall', "2.8.1"
 mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
