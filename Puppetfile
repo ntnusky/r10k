@@ -70,10 +70,10 @@ mod 'role',
   :tag => 'v1.9.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'puppet7'
+  :branch => 'puppet7'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vU.1.11'
+  :branch => 'puppet7'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
