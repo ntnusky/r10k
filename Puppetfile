@@ -29,7 +29,7 @@ mod 'puppetlabs/mysql', "10.2.0"
 mod 'puppetlabs/ntp', "4.1.2"
 mod 'puppetlabs/postgresql', "7.2.0"
 mod 'puppetlabs/puppet_agent', "4.7.0"
-mod 'puppetlabs/puppetdb', "6.0.1"
+mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
 mod 'puppetlabs/stdlib', "5.2.0"
