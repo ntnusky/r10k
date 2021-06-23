@@ -17,7 +17,8 @@ mod 'nanliu/staging', "1.0.3"
 mod 'puppetlabs/apache', "5.6.0"
 mod 'puppetlabs/apt', "7.1.0"
 mod 'puppetlabs/concat', "5.3.0"
-mod 'puppetlabs/firewall', "1.9.0"
+mod 'puppetlabs/firewall', "2.8.1"
+mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
 mod 'puppetlabs/haproxy', "1.5.0"
@@ -26,8 +27,9 @@ mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "0.6.0"
 mod 'puppetlabs/mysql', "10.2.0"
 mod 'puppetlabs/ntp', "4.1.2"
-mod 'puppetlabs/postgresql', "5.1.0"
-mod 'puppetlabs/puppetdb', "6.0.1"
+mod 'puppetlabs/postgresql', "7.2.0"
+mod 'puppetlabs/puppet_agent', "4.7.0"
+mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
 mod 'puppetlabs/stdlib', "5.2.0"
@@ -37,7 +39,12 @@ mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/logrotate', '5.0.0'
 mod 'puppet/make', '1.1.0'
-mod 'puppet/r10k', '6.1.0'
+# Need to grab r10k from github when running puppet7, until they release a newer
+# version than v9. We need commit 1c054cc3c932b0a1fbd22510af28046d91a3490e
+#mod 'puppet/r10k', '9.0.0'
+mod 'r10k',
+  :git => 'https://github.com/voxpupuli/puppet-r10k.git',
+  :commit => 'c03a24e2555775887c171e4d52b899d6421d7da8'
 mod 'puppet/rabbitmq', "11.0.0"
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
@@ -48,7 +55,7 @@ mod 'saz/sudo', "4.1.0"
 mod 'saz/timezone', '6.0.0'
 mod 'ssm/munin', '0.3.0'
 mod 'stm/debconf', '3.2.0'
-mod 'sensu/sensu', '2.53.0'
+mod 'sensu/sensu', '2.63.0'
 mod 'sgnl05/sssd', "0.3.1"
 mod 'treydock/yum_cron', "5.1.0"
 mod 'yelp/uchiwa', '2.1.0'
@@ -63,10 +70,10 @@ mod 'role',
   :tag => 'v1.9.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.17.4'
+  :tag => 'v1.18.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vU.1.12'
+  :tag => 'vU.2.0'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
