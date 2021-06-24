@@ -1,5 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
+# Comments are the release date for the version used (dd.mm.yyyy)
+
 mod 'aboe/chrony', '0.3.2'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
@@ -37,6 +39,7 @@ mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
 mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
+mod 'puppet/dhcp', "4.0.1" # 23.08.2020
 mod 'puppet/logrotate', '5.0.0'
 mod 'puppet/make', '1.1.0'
 # Need to grab r10k from github when running puppet7, until they release a newer
@@ -77,9 +80,6 @@ mod 'ntnuopenstack',
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
-mod 'dhcp',
-  :git => 'https://github.com/voxpupuli/puppet-dhcp.git',
-  :commit => 'b5925938188787faad99fdb52f294796e527a3d1'
 mod 'dns',
   :git => 'https://github.com/ajjahn/puppet-dns.git',
   :commit => '76c387f394b017cc17a720f5e874213c7f475979'
