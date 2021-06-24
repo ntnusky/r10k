@@ -52,7 +52,7 @@ mod 'puppet/rabbitmq', "11.0.0"
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
-mod 'saz/memcached', "2.8.1"
+mod 'saz/memcached', "7.0.0" # 11.06.2021
 mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
 mod 'saz/timezone', '6.0.0'
