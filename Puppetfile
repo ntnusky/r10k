@@ -48,7 +48,7 @@ mod 'puppet/make', '1.1.0'
 mod 'r10k',
   :git => 'https://github.com/voxpupuli/puppet-r10k.git',
   :commit => 'c03a24e2555775887c171e4d52b899d6421d7da8'
-mod 'puppet/rabbitmq', "11.0.0"
+mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
