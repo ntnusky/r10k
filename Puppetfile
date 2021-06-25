@@ -23,7 +23,7 @@ mod 'puppetlabs/firewall', "2.8.1"
 mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
-mod 'puppetlabs/haproxy', "1.5.0"
+mod 'puppetlabs/haproxy', "6.0.2" # 21.06.2021
 mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "0.6.0"
