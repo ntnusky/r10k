@@ -29,7 +29,7 @@ mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "0.6.0"
 mod 'puppetlabs/mysql', "10.2.0"
 mod 'puppetlabs/ntp', "9.0.1"
-mod 'puppetlabs/postgresql', "7.2.0"
+mod 'puppetlabs/postgresql', "7.2.0" # 24.05.2021
 mod 'puppetlabs/puppet_agent', "4.7.0"
 mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
