@@ -76,7 +76,7 @@ mod 'profile',
   :branch => 'focal'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vU.2.0'
+  :branch => 'focal'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
