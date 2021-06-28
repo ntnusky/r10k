@@ -10,7 +10,7 @@ mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
 mod 'example42/network', "3.5.3"
-mod 'fraenki/galera', '1.0.6'
+mod 'fraenki/galera', '2.2.0' # 17.08.2020
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'inkblot/ipcalc', '2.2.0'
@@ -27,7 +27,7 @@ mod 'puppetlabs/haproxy', "6.0.2" # 21.06.2021
 mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "0.6.0"
-mod 'puppetlabs/mysql', "10.2.0"
+mod 'puppetlabs/mysql', "11.0.3" # 21.06.2021
 mod 'puppetlabs/ntp', "9.0.1"
 mod 'puppetlabs/postgresql', "7.2.0" # 24.05.2021
 mod 'puppetlabs/puppet_agent', "4.7.0"
