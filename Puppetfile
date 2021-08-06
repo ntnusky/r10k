@@ -91,7 +91,7 @@ mod 'hwraid',
   :commit => '44e1dc13a7ab098056e538a53e243e2292c9a7e7'
 mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git',
-  :commit => '8b3e9b42a014eed21a95048420b6e1c0b57f6e1b'
+  :commit => '0902057a35582b27445312fbc60092fd28167deb'
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
