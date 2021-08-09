@@ -70,7 +70,7 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.9.1'
+  :branch => 'focal'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :branch => 'focal'
