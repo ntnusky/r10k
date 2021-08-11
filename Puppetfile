@@ -88,7 +88,7 @@ mod 'hpacucli',
   :tag => '0.4.0'
 mod 'hwraid',
   :git => 'https://github.com/ntnusky/puppet-hwraid.git',
-  :branch => 'focal'
+  :commit => 'c8b9caf69a4d1e91531ffa1f6420f64ec16a4db7'
 mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git',
   :commit => '07c6b6b49cc0c3c0f9f54f96e3a0bd8147aabe9c'
@@ -100,7 +100,7 @@ mod 'rrd',
   :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :branch => 'focal'
+  :tag => 'v1.1.0'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
