@@ -1,5 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
+# Comments are the release date for the version used (dd.mm.yyyy)
+
 mod 'aboe/chrony', '0.3.2'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
@@ -8,7 +10,7 @@ mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
 mod 'example42/network', "3.5.3"
-mod 'fraenki/galera', '1.0.6'
+mod 'fraenki/galera', '2.2.0' # 17.08.2020
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'inkblot/ipcalc', '2.2.0'
@@ -21,13 +23,13 @@ mod 'puppetlabs/firewall', "2.8.1"
 mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
-mod 'puppetlabs/haproxy', "1.5.0"
+mod 'puppetlabs/haproxy', "6.0.2" # 21.06.2021
 mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "0.6.0"
-mod 'puppetlabs/mysql', "10.2.0"
-mod 'puppetlabs/ntp', "4.1.2"
-mod 'puppetlabs/postgresql', "7.2.0"
+mod 'puppetlabs/mysql', "11.0.3" # 21.06.2021
+mod 'puppetlabs/ntp', "9.0.1"
+mod 'puppetlabs/postgresql', "7.2.0" # 24.05.2021
 mod 'puppetlabs/puppet_agent', "4.7.0"
 mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
@@ -37,6 +39,7 @@ mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "2.0.0"
 mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
+mod 'puppet/dhcp', "4.0.1" # 23.08.2020
 mod 'puppet/logrotate', '5.0.0'
 mod 'puppet/make', '1.1.0'
 # Need to grab r10k from github when running puppet7, until they release a newer
@@ -45,11 +48,11 @@ mod 'puppet/make', '1.1.0'
 mod 'r10k',
   :git => 'https://github.com/voxpupuli/puppet-r10k.git',
   :commit => 'c03a24e2555775887c171e4d52b899d6421d7da8'
-mod 'puppet/rabbitmq', "11.0.0"
+mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
-mod 'saz/memcached', "2.8.1"
+mod 'saz/memcached', "7.0.0" # 11.06.2021
 mod 'saz/ssh', "2.8.1"
 mod 'saz/sudo', "4.1.0"
 mod 'saz/timezone', '6.0.0'
@@ -70,16 +73,13 @@ mod 'role',
   :tag => 'v1.9.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.18.1'
+  :tag => 'v1.19.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vU.2.0'
+  :tag => 'vU.2.1'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
-mod 'dhcp',
-  :git => 'https://github.com/voxpupuli/puppet-dhcp.git',
-  :commit => 'b5925938188787faad99fdb52f294796e527a3d1'
 mod 'dns',
   :git => 'https://github.com/ajjahn/puppet-dns.git',
   :commit => '76c387f394b017cc17a720f5e874213c7f475979'
@@ -88,10 +88,10 @@ mod 'hpacucli',
   :tag => '0.4.0'
 mod 'hwraid',
   :git => 'https://github.com/ntnusky/puppet-hwraid.git',
-  :commit => '44e1dc13a7ab098056e538a53e243e2292c9a7e7'
+  :commit => 'c8b9caf69a4d1e91531ffa1f6420f64ec16a4db7'
 mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git',
-  :commit => '8b3e9b42a014eed21a95048420b6e1c0b57f6e1b'
+  :commit => '07c6b6b49cc0c3c0f9f54f96e3a0bd8147aabe9c'
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
@@ -100,7 +100,7 @@ mod 'rrd',
   :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :tag => 'v1.0.0'
+  :tag => 'v1.1.0'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
