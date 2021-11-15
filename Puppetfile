@@ -73,7 +73,7 @@ mod 'role',
   :tag => 'v1.9.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.19.0'
+  :tag => 'v1.19.5'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :branch => 'victoria'
