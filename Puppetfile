@@ -73,10 +73,10 @@ mod 'role',
   :tag => 'v1.9.1'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'focal'
+  :tag => 'v1.19.8'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'victoria'
+  :tag => 'vV.0.0'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
