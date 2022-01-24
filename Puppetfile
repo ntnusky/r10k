@@ -26,7 +26,7 @@ mod 'puppetlabs/git', '0.5.0'
 mod 'puppetlabs/haproxy', "6.0.2" # 21.06.2021
 mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
-mod 'puppetlabs/lvm', "0.6.0"
+mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
 mod 'puppetlabs/mysql', "11.0.3" # 21.06.2021
 mod 'puppetlabs/ntp', "9.0.1"
 mod 'puppetlabs/postgresql', "7.2.0" # 24.05.2021
@@ -70,13 +70,13 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.9.1'
+  :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :tag => 'v1.19.8'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vV.0.0'
+  :tag => 'vV.1.0'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
