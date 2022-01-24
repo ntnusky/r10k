@@ -70,13 +70,13 @@ mod 'netplan',
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'diskedcompute'
+  :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :tag => 'v1.19.8'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'diskedcompute'
+  :tag => 'vV.1.0'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
