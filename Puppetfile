@@ -14,6 +14,7 @@ mod 'fraenki/galera', '2.2.0' # 17.08.2020
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'inkblot/ipcalc', '2.2.0'
+mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'puppetlabs/apache', "5.6.0"
