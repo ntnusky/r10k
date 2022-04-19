@@ -41,7 +41,7 @@ mod 'puppetlabs/xinetd', "2.0.0"
 mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/dhcp', "4.0.1" # 23.08.2020
-mod 'puppet/logrotate', '5.0.0'
+mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
 # Need to grab r10k from github when running puppet7, until they release a newer
 # version than v9. We need commit 1c054cc3c932b0a1fbd22510af28046d91a3490e
