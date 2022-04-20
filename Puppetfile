@@ -14,6 +14,7 @@ mod 'fraenki/galera', '2.2.0' # 17.08.2020
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'inkblot/ipcalc', '2.2.0'
+mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'puppetlabs/apache', "5.6.0"
@@ -40,7 +41,7 @@ mod 'puppetlabs/xinetd', "2.0.0"
 mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/dhcp', "4.0.1" # 23.08.2020
-mod 'puppet/logrotate', '5.0.0'
+mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
 # Need to grab r10k from github when running puppet7, until they release a newer
 # version than v9. We need commit 1c054cc3c932b0a1fbd22510af28046d91a3490e
@@ -73,10 +74,10 @@ mod 'role',
   :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.19.9'
+  :tag => 'v1.20.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vV.1.2'
+  :tag => 'vV.1.3'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
