@@ -14,6 +14,7 @@ mod 'fraenki/galera', '2.2.0' # 17.08.2020
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'inkblot/ipcalc', '2.2.0'
+mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
@@ -41,7 +42,7 @@ mod 'puppetlabs/xinetd', "2.0.0"
 mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/dhcp', "4.0.1" # 23.08.2020
-mod 'puppet/logrotate', '5.0.0'
+mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
 # Need to grab r10k from github when running puppet7, until they release a newer
 # version than v9. We need commit 1c054cc3c932b0a1fbd22510af28046d91a3490e
@@ -54,7 +55,7 @@ mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'saz/memcached', "7.0.0" # 11.06.2021
-mod 'saz/ssh', "2.8.1"
+mod 'saz/ssh', "8.0.0" # 02.09.2021
 mod 'saz/sudo', "4.1.0"
 mod 'saz/timezone', '6.0.0'
 mod 'ssm/munin', '0.3.0'
@@ -77,7 +78,7 @@ mod 'profile',
   :branch => 'filebeat'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vV.1.0'
+  :tag => 'vV.1.3'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
