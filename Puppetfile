@@ -109,46 +109,46 @@ mod 'tftp',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'magnum',
   :git => 'https://github.com/openstack/puppet-magnum.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'octavia',
   :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'placement',
   :git => 'https://github.com/openstack/puppet-placement.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/victoria'
+  :branch => 'stable/wallaby'
