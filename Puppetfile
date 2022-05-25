@@ -17,6 +17,7 @@ mod 'inkblot/ipcalc', '2.2.0'
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
+mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
 mod 'puppetlabs/apache', "5.6.0"
 mod 'puppetlabs/apt', "7.1.0"
 mod 'puppetlabs/concat', "5.3.0"
@@ -74,10 +75,10 @@ mod 'role',
   :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.20.2'
+  :tag => 'v1.21.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vV.1.4'
+  :tag => 'vV.2.0'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
