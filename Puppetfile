@@ -75,7 +75,7 @@ mod 'role',
   :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.21.0'
+  :branch => 'psqllogtweak'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vV.2.0'
