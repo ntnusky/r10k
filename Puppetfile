@@ -78,7 +78,7 @@ mod 'profile',
   :tag => 'v1.21.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vW.1.0'
+  :branch => 'xena'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
@@ -110,46 +110,46 @@ mod 'tftp',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'magnum',
   :git => 'https://github.com/openstack/puppet-magnum.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'octavia',
   :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'placement',
   :git => 'https://github.com/openstack/puppet-placement.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
