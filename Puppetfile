@@ -81,7 +81,7 @@ mod 'ntnuopenstack',
   :tag => 'vX.1.0'
 
 # Misc modules from git.
-mod 'openstack/ceph', '3.1.1'
+mod 'openstack/ceph', '4.0.0' # 01.09.2022
 mod 'dns',
   :git => 'https://github.com/ajjahn/puppet-dns.git',
   :commit => '76c387f394b017cc17a720f5e874213c7f475979'
