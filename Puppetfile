@@ -78,7 +78,7 @@ mod 'profile',
   :tag => 'v1.21.5'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'cinderbackends'
+  :tag => 'vX.1.1'
 
 # Misc modules from git.
 mod 'openstack/ceph', '3.1.1'
