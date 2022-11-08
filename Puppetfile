@@ -13,6 +13,7 @@ mod 'example42/network', "3.5.3"
 mod 'fraenki/galera', '2.2.0' # 17.08.2020
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
+mod 'horsefish-bmc', '0.1.12' # 05.01.2021
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
@@ -75,7 +76,7 @@ mod 'role',
   :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.21.6'
+  :branch => 'bmc'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vX.1.1'
