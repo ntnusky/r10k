@@ -13,6 +13,7 @@ mod 'example42/network', "3.5.3"
 mod 'fraenki/galera', '2.2.0' # 17.08.2020
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
+mod 'horsefish-bmc', '0.1.12' # 05.01.2021
 mod 'inkblot/ipcalc', '2.2.0'
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
@@ -75,13 +76,13 @@ mod 'role',
   :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.21.4'
+  :tag => 'v1.21.7'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vW.1.0'
+  :tag => 'vX.2.0'
 
 # Misc modules from git.
-mod 'openstack/ceph', '3.1.1'
+mod 'openstack/ceph', '4.0.0' # 01.09.2022
 mod 'dns',
   :git => 'https://github.com/ajjahn/puppet-dns.git',
   :commit => '76c387f394b017cc17a720f5e874213c7f475979'
@@ -110,46 +111,46 @@ mod 'tftp',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'magnum',
   :git => 'https://github.com/openstack/puppet-magnum.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'octavia',
   :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'placement',
   :git => 'https://github.com/openstack/puppet-placement.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/wallaby'
+  :branch => 'stable/xena'
