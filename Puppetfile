@@ -76,10 +76,10 @@ mod 'role',
   :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'yoga'
+  :tag => 'v1.22.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'yoga'
+  :tag => 'vY.1.0'
 
 # Misc modules from git.
 
