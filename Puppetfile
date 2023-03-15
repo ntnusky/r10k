@@ -10,7 +10,7 @@ mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
 mod 'example42/network', "3.5.3"
-mod 'fraenki/galera', '2.2.0' # 17.08.2020
+mod 'fraenki/galera', '3.0.1' # 17.08.2022
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'horsefish-bmc', '0.1.12' # 05.01.2021
@@ -30,16 +30,16 @@ mod 'puppetlabs/haproxy', "6.0.2" # 21.06.2021
 mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
-mod 'puppetlabs/mysql', "11.0.3" # 21.06.2021
+mod 'puppetlabs/mysql', "12.0.3" # 25.05.2022
 mod 'puppetlabs/ntp', "9.0.1"
 mod 'puppetlabs/postgresql', "7.2.0" # 24.05.2021
 mod 'puppetlabs/puppet_agent', "4.7.0"
 mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
-mod 'puppetlabs/stdlib', "5.2.0"
+mod 'puppetlabs/stdlib', "8.5.0" # 13.10.2022
 mod 'puppetlabs/vcsrepo', "1.3.2"
-mod 'puppetlabs/xinetd', "2.0.0"
+mod 'puppetlabs/xinetd', "3.3.0" # 29.05.2019
 mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/dhcp', "4.0.1" # 23.08.2020
