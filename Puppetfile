@@ -76,10 +76,10 @@ mod 'role',
   :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'jammy'
+  :branch => 'socstack'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'jammy'
+  :branch => 'socstack'
 
 # Misc modules from git.
 
