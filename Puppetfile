@@ -79,7 +79,7 @@ mod 'profile',
   :tag => 'v1.22.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'octaviawsgi'
+  :tag => 'vY.1.2'
 
 # Misc modules from git.
 
