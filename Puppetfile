@@ -65,10 +65,7 @@ mod 'sensu/sensu', '2.63.0'
 mod 'sgnl05/sssd', "0.3.1"
 mod 'treydock/yum_cron', "5.1.0"
 mod 'yelp/uchiwa', '2.1.0'
-#mod 'zehweh/netplan', '0.1.8'
-mod 'netplan',
-  :git => 'https://github.com/ntnusky/puppet-netplan.git',
-  :commit => 'a134654121e0432d8a4dd9009be3bad1ab6fc27d'
+mod 'zehweh/netplan', '2.0.0'
 
 # Our roles and profiles
 mod 'role',
