@@ -56,7 +56,7 @@ mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'saz/memcached', "7.0.0" # 11.06.2021
-mod 'saz/ssh', "8.0.0" # 02.09.2021
+mod 'saz/ssh', "11.1.0" # 03.10.2023
 mod 'saz/sudo', "4.1.0"
 mod 'saz/timezone', '6.0.0'
 mod 'ssm/munin', '0.3.0'
