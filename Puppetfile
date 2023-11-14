@@ -14,13 +14,13 @@ mod 'fraenki/galera', '3.0.1' # 17.08.2022
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'horsefish-bmc', '0.1.12' # 05.01.2021
-mod 'inkblot/ipcalc', '2.2.0'
+mod 'inkblot/ipcalc', '2.2.0' # 03.03.2017
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
 mod 'puppetlabs/apache', "7.0.0" # 11.10.2021
-mod 'puppetlabs/apt', "7.1.0"
+mod 'puppetlabs/apt', "9.1.0" # 08.06.2023
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "2.8.1"
 mod 'puppetlabs/facts', "1.4.0"
