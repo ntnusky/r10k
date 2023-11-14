@@ -64,6 +64,7 @@ mod 'stm/debconf', '3.2.0'
 mod 'sensu/sensu', '2.63.0'
 mod 'sgnl05/sssd', "0.3.1"
 mod 'treydock/yum_cron', "5.1.0"
+mod 'thias/libvirt', "1.0.2"
 mod 'yelp/uchiwa', '2.1.0'
 mod 'zehweh/netplan', '2.0.0'
 
@@ -94,9 +95,6 @@ mod 'hpacucli',
 mod 'hwraid',
   :git => 'https://github.com/ntnusky/puppet-hwraid.git',
   :branch => 'jammy'
-mod 'libvirt',
-  :git => 'https://github.com/ntnusky/puppet-libvirt.git',
-  :commit => '07c6b6b49cc0c3c0f9f54f96e3a0bd8147aabe9c'
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
