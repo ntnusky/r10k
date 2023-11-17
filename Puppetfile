@@ -103,6 +103,9 @@ mod 'os',
 mod 'rrd',
   :git => 'https://github.com/ntnusky/puppet-rrd.git',
   :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
+mod 'shiftleader',
+  :git => 'https://github.com/shiftleader2/puppet-shiftleader',
+  :branch => 'main'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
   :branch => 'jammy'
