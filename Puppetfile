@@ -76,10 +76,10 @@ mod 'role',
   :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.23.0'
+  :branch => 'zed'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vY.1.4'
+  :branch => 'zed'
 
 
 # Misc modules from git.
@@ -117,46 +117,46 @@ mod 'tftp',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'magnum',
   :git => 'https://github.com/openstack/puppet-magnum.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'octavia',
   :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'placement',
   :git => 'https://github.com/openstack/puppet-placement.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/zed'
