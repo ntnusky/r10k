@@ -81,6 +81,7 @@ mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vY.1.4'
 
+
 # Misc modules from git.
 
 # Apparently the ceph-module is not available on the forge right now...
