@@ -10,7 +10,7 @@ mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
 mod 'example42/network', "3.5.3"
-mod 'fraenki/galera', '2.2.0' # 17.08.2020
+mod 'fraenki/galera', '3.0.1' # 17.08.2022
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'horsefish-bmc', '0.1.12' # 05.01.2021
@@ -19,7 +19,7 @@ mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
-mod 'puppetlabs/apache', "5.6.0"
+mod 'puppetlabs/apache', "7.0.0" # 11.10.2021
 mod 'puppetlabs/apt', "7.1.0"
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "2.8.1"
@@ -30,16 +30,16 @@ mod 'puppetlabs/haproxy', "6.0.2" # 21.06.2021
 mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
-mod 'puppetlabs/mysql', "11.0.3" # 21.06.2021
+mod 'puppetlabs/mysql', "12.0.3" # 25.05.2022
 mod 'puppetlabs/ntp', "9.0.1"
 mod 'puppetlabs/postgresql', "7.2.0" # 24.05.2021
 mod 'puppetlabs/puppet_agent', "4.7.0"
 mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
-mod 'puppetlabs/stdlib', "5.2.0"
+mod 'puppetlabs/stdlib', "8.5.0" # 13.10.2022
 mod 'puppetlabs/vcsrepo', "1.3.2"
-mod 'puppetlabs/xinetd', "2.0.0"
+mod 'puppetlabs/xinetd', "3.3.0" # 29.05.2019
 mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/dhcp', "4.0.1" # 23.08.2020
@@ -76,10 +76,11 @@ mod 'role',
   :tag => 'v1.10.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.22.0'
+  :tag => 'v1.23.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vY.1.3'
+  :tag => 'vY.1.4'
+
 
 # Misc modules from git.
 
@@ -96,7 +97,7 @@ mod 'hpacucli',
   :tag => '0.4.0'
 mod 'hwraid',
   :git => 'https://github.com/ntnusky/puppet-hwraid.git',
-  :commit => 'c8b9caf69a4d1e91531ffa1f6420f64ec16a4db7'
+  :commit => 'ae31789e26478d3b665763322fffbd146c8cb5a6'
 mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git',
   :commit => '07c6b6b49cc0c3c0f9f54f96e3a0bd8147aabe9c'
@@ -108,7 +109,7 @@ mod 'rrd',
   :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :tag => 'v1.1.0'
+  :tag => 'v1.2.0'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
