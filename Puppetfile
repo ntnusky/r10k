@@ -79,7 +79,7 @@ mod 'profile',
   :tag => 'v1.23.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vY.1.4'
+  :branch => 'yogaprezed'
 
 
 # Misc modules from git.
