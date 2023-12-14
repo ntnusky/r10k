@@ -32,8 +32,8 @@ mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
 mod 'puppetlabs/mysql', "12.0.3" # 25.05.2022
 mod 'puppetlabs/ntp', "9.0.1"
-mod 'puppetlabs/postgresql', "7.2.0" # 24.05.2021
-mod 'puppetlabs/puppet_agent', "4.15.0" #21.09.2023
+mod 'puppetlabs/postgresql', "10.0.2" # 08.11.2023
+mod 'puppetlabs/puppet_agent', "4.15.0" # 21.09.2023
 mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
