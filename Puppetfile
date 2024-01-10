@@ -51,7 +51,7 @@ mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'saz/memcached', "7.0.0" # 11.06.2021
-mod 'saz/ssh', "11.1.0" # 03.10.2023
+mod 'saz/ssh', "11.2.0" # 28.11.2023
 mod 'saz/sudo', "8.0.0" # 26.06.2023
 mod 'saz/timezone', '6.0.0'
 mod 'ssm/munin', '0.3.0'
@@ -65,7 +65,7 @@ mod 'zehweh/netplan', '2.0.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.10.0'
+  :branch => 'socstack'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :branch => 'socstack'
