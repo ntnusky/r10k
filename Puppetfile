@@ -20,7 +20,7 @@ mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
 mod 'puppetlabs/apache', "11.1.0" # 25.9.2023
-mod 'puppetlabs/apt', "9.1.0" # 08.06.2023
+mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "2.8.1"
 mod 'puppetlabs/facts', "1.4.0"
