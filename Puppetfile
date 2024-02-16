@@ -46,7 +46,7 @@ mod 'puppet/archive', "3.0.0"
 mod 'puppet/dhcp', "4.0.1" # 23.08.2020
 mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
-mod 'puppet/r10k', '12.2.0' # 05.10.2023
+mod 'puppet/r10k', '11.0.1' # 08.06.2023
 mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
