@@ -20,24 +20,24 @@ mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
 mod 'puppetlabs/apache', "7.0.0" # 11.10.2021
-mod 'puppetlabs/apt', "7.1.0"
+mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "2.8.1"
 mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
-mod 'puppetlabs/haproxy', "6.0.2" # 21.06.2021
+mod 'puppetlabs/haproxy', "8.0.0" # 22.11.2023
 mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
 mod 'puppetlabs/mysql', "12.0.3" # 25.05.2022
 mod 'puppetlabs/ntp', "9.0.1"
-mod 'puppetlabs/postgresql', "7.2.0" # 24.05.2021
-mod 'puppetlabs/puppet_agent', "4.7.0"
+mod 'puppetlabs/postgresql', "10.0.2" # 08.11.2023
+mod 'puppetlabs/puppet_agent', "4.15.0" # 21.09.2023
 mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
-mod 'puppetlabs/stdlib', "8.5.0" # 13.10.2022
+mod 'puppetlabs/stdlib', "8.6.0" # 24.04.2023
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "3.3.0" # 29.05.2019
 mod 'puppetlabs/yumrepo_core', "1.0.7"
@@ -45,19 +45,14 @@ mod 'puppet/archive', "3.0.0"
 mod 'puppet/dhcp', "4.0.1" # 23.08.2020
 mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
-# Need to grab r10k from github when running puppet7, until they release a newer
-# version than v9. We need commit 1c054cc3c932b0a1fbd22510af28046d91a3490e
-#mod 'puppet/r10k', '9.0.0'
-mod 'r10k',
-  :git => 'https://github.com/voxpupuli/puppet-r10k.git',
-  :commit => 'c03a24e2555775887c171e4d52b899d6421d7da8'
+mod 'puppet/r10k', '11.0.1' # 08.06.2023
 mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'saz/memcached', "7.0.0" # 11.06.2021
-mod 'saz/ssh', "8.0.0" # 02.09.2021
-mod 'saz/sudo', "4.1.0"
+mod 'saz/ssh', "10.2.0" # 26.05.2023
+mod 'saz/sudo', "8.0.0" # 26.06.2023
 mod 'saz/timezone', '6.0.0'
 mod 'ssm/munin', '0.3.0'
 mod 'stm/debconf', '3.2.0'
@@ -65,18 +60,15 @@ mod 'sensu/sensu', '2.63.0'
 mod 'sgnl05/sssd', "0.3.1"
 mod 'treydock/yum_cron', "5.1.0"
 mod 'yelp/uchiwa', '2.1.0'
-#mod 'zehweh/netplan', '0.1.8'
-mod 'netplan',
-  :git => 'https://github.com/ntnusky/puppet-netplan.git',
-  :commit => 'a134654121e0432d8a4dd9009be3bad1ab6fc27d'
+mod 'zehweh/netplan', '2.0.0'
 
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.10.0'
+  :branch => 'socstack'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.23.1'
+  :branch => 'socstack'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vY.1.4'
@@ -107,9 +99,12 @@ mod 'os',
 mod 'rrd',
   :git => 'https://github.com/ntnusky/puppet-rrd.git',
   :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
+mod 'shiftleader',
+  :git => 'https://github.com/shiftleader2/puppet-shiftleader',
+  :branch => 'main'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :tag => 'v1.2.0'
+  :branch => 'jammy'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
