@@ -71,7 +71,7 @@ mod 'profile',
   :branch => 'socstack'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vY.1.4'
+  :branch => 'modernization'
 
 
 # Misc modules from git.
