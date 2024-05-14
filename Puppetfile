@@ -68,7 +68,7 @@ mod 'role',
   :tag => 'v1.11.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'mailfix'
+  :tag => 'v1.24.4'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vY.4.0'
