@@ -133,7 +133,7 @@ mod 'magnum',
   :branch => 'stable/zed'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/zed'
+  :branch => 'unmaintained/zed'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
   :branch => 'stable/zed'
