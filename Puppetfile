@@ -89,7 +89,7 @@ mod 'hpacucli',
   :tag => '0.4.0'
 mod 'hwraid',
   :git => 'https://github.com/ntnusky/puppet-hwraid.git',
-  :branch => 'jammy'
+  :commit => 'ae31789e26478d3b665763322fffbd146c8cb5a6'
 mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git',
   :branch => 'jammy'
