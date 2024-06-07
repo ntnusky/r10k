@@ -72,7 +72,7 @@ mod 'profile',
   :tag => 'v1.24.4'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'zed'
+  :tag => 'vZ.0.1'
 
 # Misc modules from git.
 
