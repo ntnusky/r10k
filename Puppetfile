@@ -10,54 +10,50 @@ mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
 mod 'example42/network', "3.5.3"
-mod 'fraenki/galera', '2.2.0' # 17.08.2020
+mod 'fraenki/galera', '3.0.1' # 17.08.2022
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'horsefish-bmc', '0.1.12' # 05.01.2021
-mod 'inkblot/ipcalc', '2.2.0'
+mod 'inkblot/ipcalc', '2.2.0' # 03.03.2017
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
-mod 'puppetlabs/apache', "5.6.0"
-mod 'puppetlabs/apt', "7.1.0"
+mod 'puppetlabs/apache', "7.0.0" # 11.10.2021
+mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "2.8.1"
 mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
-mod 'puppetlabs/haproxy', "6.0.2" # 21.06.2021
+mod 'puppetlabs/haproxy', "8.0.0" # 22.11.2023
 mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
-mod 'puppetlabs/mysql', "11.0.3" # 21.06.2021
+mod 'puppetlabs/mysql', "12.0.3" # 25.05.2022
 mod 'puppetlabs/ntp', "9.0.1"
-mod 'puppetlabs/postgresql', "7.2.0" # 24.05.2021
-mod 'puppetlabs/puppet_agent', "4.7.0"
+mod 'puppetlabs/postgresql', "9.2.0" # 30.08.2023
+mod 'puppetlabs/puppet_agent', "4.15.0" # 21.09.2023
 mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
-mod 'puppetlabs/stdlib', "5.2.0"
+# Openstacklib needs stdlib < 9 until 2023.2
+mod 'puppetlabs/stdlib', "8.6.0" # 24.04.2023
 mod 'puppetlabs/vcsrepo', "1.3.2"
-mod 'puppetlabs/xinetd', "2.0.0"
+mod 'puppetlabs/xinetd', "3.3.0" # 29.05.2019
 mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/dhcp', "4.0.1" # 23.08.2020
 mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
-# Need to grab r10k from github when running puppet7, until they release a newer
-# version than v9. We need commit 1c054cc3c932b0a1fbd22510af28046d91a3490e
-#mod 'puppet/r10k', '9.0.0'
-mod 'r10k',
-  :git => 'https://github.com/voxpupuli/puppet-r10k.git',
-  :commit => 'c03a24e2555775887c171e4d52b899d6421d7da8'
+mod 'puppet/r10k', '11.0.1' # 08.06.2023
 mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'saz/memcached', "7.0.0" # 11.06.2021
-mod 'saz/ssh', "8.0.0" # 02.09.2021
-mod 'saz/sudo', "4.1.0"
+mod 'saz/ssh', "10.2.0" # 26.05.2023
+mod 'saz/sudo', "8.0.0" # 26.06.2023
 mod 'saz/timezone', '6.0.0'
 mod 'ssm/munin', '0.3.0'
 mod 'stm/debconf', '3.2.0'
@@ -65,21 +61,18 @@ mod 'sensu/sensu', '2.63.0'
 mod 'sgnl05/sssd', "0.3.1"
 mod 'treydock/yum_cron', "5.1.0"
 mod 'yelp/uchiwa', '2.1.0'
-#mod 'zehweh/netplan', '0.1.8'
-mod 'netplan',
-  :git => 'https://github.com/ntnusky/puppet-netplan.git',
-  :commit => 'a134654121e0432d8a4dd9009be3bad1ab6fc27d'
+mod 'zehweh/netplan', '2.0.0'
 
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.10.0'
+  :tag => 'v1.11.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.22.0'
+  :tag => 'v1.25.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vY.1.3'
+  :tag => 'vA.0.0'
 
 # Misc modules from git.
 
@@ -96,19 +89,22 @@ mod 'hpacucli',
   :tag => '0.4.0'
 mod 'hwraid',
   :git => 'https://github.com/ntnusky/puppet-hwraid.git',
-  :commit => 'c8b9caf69a4d1e91531ffa1f6420f64ec16a4db7'
+  :commit => 'ae31789e26478d3b665763322fffbd146c8cb5a6'
 mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git',
-  :commit => '07c6b6b49cc0c3c0f9f54f96e3a0bd8147aabe9c'
+  :branch => 'jammy'
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
 mod 'rrd',
   :git => 'https://github.com/ntnusky/puppet-rrd.git',
   :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
+mod 'shiftleader',
+  :git => 'https://github.com/shiftleader2/puppet-shiftleader',
+  :branch => 'main'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :tag => 'v1.1.0'
+  :branch => 'jammy'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
@@ -116,46 +112,46 @@ mod 'tftp',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'magnum',
   :git => 'https://github.com/openstack/puppet-magnum.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'octavia',
   :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'placement',
   :git => 'https://github.com/openstack/puppet-placement.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/yoga'
+  :branch => 'stable/2023.1'
