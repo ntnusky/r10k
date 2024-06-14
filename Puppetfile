@@ -14,7 +14,7 @@ mod 'fraenki/galera', '3.0.1' # 17.08.2022
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'horsefish-bmc', '0.1.12' # 05.01.2021
-mod 'inkblot/ipcalc', '2.2.0'
+mod 'inkblot/ipcalc', '2.2.0' # 03.03.2017
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
@@ -32,11 +32,12 @@ mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
 mod 'puppetlabs/mysql', "12.0.3" # 25.05.2022
 mod 'puppetlabs/ntp', "9.0.1"
-mod 'puppetlabs/postgresql', "10.0.2" # 08.11.2023
+mod 'puppetlabs/postgresql', "9.2.0" # 30.08.2023
 mod 'puppetlabs/puppet_agent', "4.15.0" # 21.09.2023
 mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
+# Openstacklib needs stdlib < 9 until 2023.2
 mod 'puppetlabs/stdlib', "8.6.0" # 24.04.2023
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "3.3.0" # 29.05.2019
@@ -68,11 +69,10 @@ mod 'role',
   :tag => 'v1.11.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.24.2'
+  :tag => 'v1.24.4'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vY.4.0'
-
+  :tag => 'vZ.0.1'
 
 # Misc modules from git.
 
@@ -92,7 +92,7 @@ mod 'hwraid',
   :commit => 'ae31789e26478d3b665763322fffbd146c8cb5a6'
 mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git',
-  :commit => '07c6b6b49cc0c3c0f9f54f96e3a0bd8147aabe9c'
+  :branch => 'jammy'
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
@@ -112,46 +112,46 @@ mod 'tftp',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'magnum',
   :git => 'https://github.com/openstack/puppet-magnum.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'octavia',
   :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'placement',
   :git => 'https://github.com/openstack/puppet-placement.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'unmaintained/yoga'
+  :branch => 'unmaintained/zed'
