@@ -69,7 +69,7 @@ mod 'role',
   :tag => 'v1.11.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'os-munin-fix'
+  :tag => 'v1.25.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vA.0.0'
