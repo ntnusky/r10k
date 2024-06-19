@@ -72,7 +72,7 @@ mod 'profile',
   :tag => 'v1.25.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vA.0.0'
+  :branch => 'neutronlogging'
 
 # Misc modules from git.
 
