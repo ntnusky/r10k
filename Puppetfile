@@ -69,10 +69,10 @@ mod 'role',
   :tag => 'v1.11.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.24.4'
+  :tag => 'v1.25.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vZ.0.1'
+  :tag => 'vA.0.2'
 
 # Misc modules from git.
 
@@ -112,46 +112,46 @@ mod 'tftp',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'magnum',
   :git => 'https://github.com/openstack/puppet-magnum.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'octavia',
   :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'placement',
   :git => 'https://github.com/openstack/puppet-placement.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'unmaintained/zed'
+  :branch => 'stable/2023.1'
