@@ -19,7 +19,7 @@ mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
-mod 'puppetlabs/apache', "7.0.0" # 11.10.2021
+mod 'puppetlabs/apache', "9.1.3" # 20.04.2023
 mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "2.8.1"
