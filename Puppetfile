@@ -111,6 +111,9 @@ mod 'barbican',
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
   :branch => 'stable/2023.1'
+mod 'designate',
+  :git => 'https://github.com/openstack/puppet-designate.git',
+  :branch => 'stable/2023.1'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
   :branch => 'stable/2023.1'
