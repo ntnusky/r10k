@@ -58,6 +58,7 @@ mod 'saz/sudo', "8.0.0" # 26.06.2023
 mod 'saz/timezone', '6.0.0'
 mod 'stm/debconf', '3.2.0'
 mod 'sgnl05/sssd', "0.3.1"
+mod 'theforeman-dns', '9.6.0' # 03.05.2023
 mod 'treydock/yum_cron', "5.1.0"
 mod 'zehweh/netplan', '2.0.0'
 
