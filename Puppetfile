@@ -59,6 +59,7 @@ mod 'ssm/munin', '0.3.0'
 mod 'stm/debconf', '3.2.0'
 mod 'sensu/sensu', '2.63.0'
 mod 'sgnl05/sssd', "0.3.1"
+mod 'theforeman-dns', '9.6.0' # 03.05.2023
 mod 'treydock/yum_cron', "5.1.0"
 mod 'yelp/uchiwa', '2.1.0'
 mod 'zehweh/netplan', '2.0.0'
@@ -81,9 +82,6 @@ mod 'ntnuopenstack',
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
   :tag => '4.0.0'
-mod 'dns',
-  :git => 'https://github.com/ajjahn/puppet-dns.git',
-  :commit => '76c387f394b017cc17a720f5e874213c7f475979'
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
   :tag => '0.4.0'
