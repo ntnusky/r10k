@@ -19,7 +19,7 @@ mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
-mod 'puppetlabs/apache', "7.0.0" # 11.10.2021
+mod 'puppetlabs/apache', "9.1.3" # 20.04.2023
 mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "2.8.1"
@@ -51,6 +51,7 @@ mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
 mod 'puppet/redis', "4.0.0"
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
+mod 'puppet/zabbix', "10.0.0" # 15.03.2024
 mod 'saz/memcached', "7.0.0" # 11.06.2021
 mod 'saz/ssh', "10.2.0" # 26.05.2023
 mod 'saz/sudo', "8.0.0" # 26.06.2023
@@ -66,13 +67,13 @@ mod 'zehweh/netplan', '2.0.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.11.0'
+  :tag => 'v1.12.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :tag => 'v1.26.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vA.0.2'
+  :tag => 'vA.1.0'
 
 # Misc modules from git.
 
