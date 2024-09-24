@@ -73,7 +73,7 @@ mod 'profile',
   :branch => 'zabbix'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vA.1.0'
+  :branch => 'zabbix'
 
 # Misc modules from git.
 
