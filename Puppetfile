@@ -70,10 +70,10 @@ mod 'role',
   :tag => 'v1.12.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'zabbix'
+  :tag => 'v1.26.2'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'zabbix'
+  :tag => 'vA.1.1'
 
 # Misc modules from git.
 
