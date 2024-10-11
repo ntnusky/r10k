@@ -22,7 +22,7 @@ mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
 mod 'puppetlabs/apache', "9.1.3" # 20.04.2023
 mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
 mod 'puppetlabs/concat', "5.3.0"
-mod 'puppetlabs/firewall', "2.8.1"
+mod 'puppetlabs/firewall', "8.1.0" # 23.09.2024
 mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
@@ -82,9 +82,6 @@ mod 'ntnuopenstack',
 mod 'ceph',
   :git => 'https://github.com/openstack/puppet-ceph.git',
   :tag => '4.0.0'
-mod 'dns',
-  :git => 'https://github.com/ajjahn/puppet-dns.git',
-  :commit => '76c387f394b017cc17a720f5e874213c7f475979'
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
   :tag => '0.4.0'
