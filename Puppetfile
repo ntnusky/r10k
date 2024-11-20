@@ -64,13 +64,13 @@ mod 'zehweh/netplan', '2.0.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'multiregion'
+  :tag => 'v1.13.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'multiregion'
+  :tag => 'v1.27.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'multiregion'
+  :tag => 'vA.2.0'
 
 # Misc modules from git.
 
