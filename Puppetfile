@@ -67,7 +67,7 @@ mod 'role',
   :tag => 'v1.13.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'mysql-backup-ramdisk'
+  :tag => 'v1.27.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vA.2.0'
