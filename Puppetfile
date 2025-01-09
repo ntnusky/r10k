@@ -6,6 +6,7 @@ mod 'aboe/chrony', '0.3.2'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
 mod 'camptocamp/systemd', "2.12.0"
+mod 'deric/zookeeper', '1.5.0' # 08.08.2023
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
