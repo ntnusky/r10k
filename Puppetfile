@@ -67,10 +67,10 @@ mod 'role',
   :tag => 'v1.13.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'cinderstorage'
+  :tag => 'v1.27.3'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'cinderstorage'
+  :tag => 'vA.2.2'
 
 # Misc modules from git.
 
