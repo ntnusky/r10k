@@ -64,7 +64,7 @@ mod 'zehweh/netplan', '2.0.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.13.0'
+  :branch => 'multiregion'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :branch => 'multiregion'
