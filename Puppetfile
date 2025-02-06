@@ -52,6 +52,7 @@ mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'puppet/zabbix', "10.0.0" # 15.03.2024
+mod 'saz/locales', '4.1.0' # 05.02.2025
 mod 'saz/memcached', "7.0.0" # 11.06.2021
 mod 'saz/ssh', "10.2.0" # 26.05.2023
 mod 'saz/sudo', "8.0.0" # 26.06.2023
