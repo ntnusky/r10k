@@ -6,6 +6,7 @@ mod 'aboe/chrony', '0.3.2'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
 mod 'camptocamp/systemd', "2.12.0"
+mod 'deric/zookeeper', '1.5.0' # 08.08.2023
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
@@ -59,6 +60,7 @@ mod 'saz/sudo', "8.0.0" # 26.06.2023
 mod 'saz/timezone', '6.0.0'
 mod 'stm/debconf', '3.2.0'
 mod 'sgnl05/sssd', "0.3.1"
+mod 'theforeman-dns', '9.6.0' # 03.05.2023
 mod 'treydock/yum_cron', "5.1.0"
 mod 'zehweh/netplan', '2.0.0'
 
@@ -111,6 +113,9 @@ mod 'barbican',
   :branch => 'stable/2023.1'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
+  :branch => 'stable/2023.1'
+mod 'designate',
+  :git => 'https://github.com/openstack/puppet-designate.git',
   :branch => 'stable/2023.1'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
