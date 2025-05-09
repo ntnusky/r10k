@@ -6,6 +6,7 @@ mod 'aboe/chrony', '0.3.2'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
 mod 'camptocamp/systemd', "2.12.0"
+mod 'deric/zookeeper', '1.5.0' # 08.08.2023
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
@@ -52,25 +53,27 @@ mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'puppet/zabbix', "10.0.0" # 15.03.2024
+mod 'saz/locales', '4.1.0' # 05.02.2025
 mod 'saz/memcached', "7.0.0" # 11.06.2021
 mod 'saz/ssh', "10.2.0" # 26.05.2023
 mod 'saz/sudo', "8.0.0" # 26.06.2023
 mod 'saz/timezone', '6.0.0'
 mod 'stm/debconf', '3.2.0'
 mod 'sgnl05/sssd', "0.3.1"
+mod 'theforeman-dns', '9.6.0' # 03.05.2023
 mod 'treydock/yum_cron', "5.1.0"
 mod 'zehweh/netplan', '2.0.0'
 
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.13.0'
+  :tag => 'v1.14.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.27.3'
+  :tag => 'v1.28.0'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vA.2.2'
+  :tag => 'vA.3.0'
 
 # Misc modules from git.
 
@@ -107,46 +110,49 @@ mod 'tftp',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
+mod 'designate',
+  :git => 'https://github.com/openstack/puppet-designate.git',
+  :branch => 'unmaintained/2023.1'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'magnum',
   :git => 'https://github.com/openstack/puppet-magnum.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'octavia',
   :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'placement',
   :git => 'https://github.com/openstack/puppet-placement.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/2023.1'
+  :branch => 'unmaintained/2023.1'
