@@ -73,7 +73,7 @@ mod 'profile',
   :tag => 'v1.28.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vA.3.0'
+  :branch => 'rebuildfix'
 
 # Misc modules from git.
 
