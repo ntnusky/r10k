@@ -19,6 +19,7 @@ mod 'inkblot/ipcalc', '2.2.0' # 03.03.2017
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
+mod 'openstack/ceph', '7.0.0' # 28.02.2025
 mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
 mod 'puppetlabs/apache', "9.1.3" # 20.04.2023
 mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
@@ -76,12 +77,6 @@ mod 'ntnuopenstack',
   :tag => 'vA.3.1'
 
 # Misc modules from git.
-
-# Apparently the ceph-module is not available on the forge right now...
-#mod 'openstack/ceph', '4.0.0' # 01.09.2022
-mod 'ceph',
-  :git => 'https://github.com/openstack/puppet-ceph.git',
-  :tag => '4.0.0'
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
   :tag => '0.4.0'
