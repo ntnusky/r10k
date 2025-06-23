@@ -71,15 +71,15 @@ mod 'role',
   :tag => 'v1.14.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.29.0'
+  :tag => 'v1.29.2'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vA.3.1'
+  :tag => 'vC.0.0'
 
 # Misc modules from git.
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
-  :tag => '0.4.0'
+  :tag => '0.5.1'
 mod 'hwraid',
   :git => 'https://github.com/ntnusky/puppet-hwraid.git',
   :commit => 'ae31789e26478d3b665763322fffbd146c8cb5a6'
@@ -105,49 +105,49 @@ mod 'tftp',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'designate',
   :git => 'https://github.com/openstack/puppet-designate.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'magnum',
   :git => 'https://github.com/openstack/puppet-magnum.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'octavia',
   :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'placement',
   :git => 'https://github.com/openstack/puppet-placement.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'unmaintained/2023.1'
+  :branch => 'stable/2024.1'
