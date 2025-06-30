@@ -74,7 +74,7 @@ mod 'profile',
   :tag => 'v1.29.2'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vC.0.0'
+  :branch => 'glance-epoxy'
 
 # Misc modules from git.
 mod 'hpacucli',
