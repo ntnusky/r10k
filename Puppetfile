@@ -24,8 +24,7 @@ mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
 mod 'puppetlabs/apache', "9.1.3" # 20.04.2023
 mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
 mod 'puppetlabs/concat', "5.3.0"
-# Firewall >5 needs stdlib >=9; which we cant have before 2023.2
-mod 'puppetlabs/firewall', "5.0.0" # 31.05.2023
+mod 'puppetlabs/firewall', "8.1.7" # 10.06.2025
 mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
