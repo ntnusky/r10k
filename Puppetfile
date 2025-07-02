@@ -28,7 +28,7 @@ mod 'puppetlabs/firewall', "8.1.7" # 10.06.2025
 mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
-mod 'puppetlabs/haproxy', "8.0.0" # 22.11.2023
+mod 'puppetlabs/haproxy', "8.2.0" # 31.01.2025
 mod 'puppetlabs/inifile', "2.5.0"
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
