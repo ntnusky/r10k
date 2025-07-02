@@ -5,7 +5,7 @@ forge "http://forge.puppetlabs.com"
 mod 'aboe/chrony', '0.3.2'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
-mod 'camptocamp/systemd', "2.12.0"
+#mod 'camptocamp/systemd', "2.12.0" # SUPER DEPRECATED!!!
 mod 'deric/zookeeper', '1.5.0' # 08.08.2023
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
@@ -52,10 +52,11 @@ mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '11.0.1' # 08.06.2023
 mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
 mod 'puppet/selinux', '3.2.0'
+mod 'puppet/systemd', '8.2.0' # 19.04.2025
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'puppet/zabbix', "10.0.0" # 15.03.2024
 mod 'saz/locales', '4.1.0' # 05.02.2025
-mod 'saz/memcached', "7.0.0" # 11.06.2021
+mod 'saz/memcached', "10.0.1" # 10.03.2025
 mod 'saz/ssh', "10.2.0" # 26.05.2023
 mod 'saz/sudo', "8.0.0" # 26.06.2023
 mod 'saz/timezone', '6.0.0'
