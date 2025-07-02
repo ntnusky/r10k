@@ -40,8 +40,7 @@ mod 'puppetlabs/puppet_agent', "4.15.0" # 21.09.2023
 mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
-# Openstacklib needs stdlib < 9 until 2023.2
-mod 'puppetlabs/stdlib', "8.6.0" # 24.04.2023
+mod 'puppetlabs/stdlib', "9.7.0" # 17.12.2024
 mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "3.3.0" # 29.05.2019
 mod 'puppetlabs/yumrepo_core', "1.0.7"
