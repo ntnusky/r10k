@@ -21,7 +21,7 @@ mod 'lwf/remote_file', '1.1.3'
 mod 'nanliu/staging', "1.0.3"
 mod 'openstack/ceph', '7.0.0' # 28.02.2025
 mod 'pcfens-filebeat', '4.14.0' # 07.06.2023
-mod 'puppetlabs/apache', "9.1.3" # 20.04.2023
+mod 'puppetlabs/apache', "12.3.1" # 31.03.2025
 mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "8.1.7" # 10.06.2025
