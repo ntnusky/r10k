@@ -44,7 +44,7 @@ mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "3.3.0" # 29.05.2019
 mod 'puppetlabs/yumrepo_core', "1.0.7"
 mod 'puppet/archive', "3.0.0"
-mod 'puppet/dhcp', "4.0.1" # 23.08.2020
+mod 'puppet/dhcp', "6.1.0" # 23.01.2024
 mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '11.0.1' # 08.06.2023
