@@ -73,7 +73,7 @@ mod 'profile',
   :branch => 'noble'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vC.0.0'
+  :branch => 'noble'
 
 # Misc modules from git.
 mod 'hpacucli',
