@@ -11,13 +11,14 @@ mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
 mod 'example42/network', "3.5.3"
-mod 'fraenki/galera', '3.0.1' # 17.08.2022
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'horsefish-bmc', '0.1.12' # 05.01.2021
 mod 'inkblot/ipcalc', '2.2.0' # 03.03.2017
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
+mod 'markt/galera', '4.0.1' # 14.08.2024
+mod 'markt/marktlib', 0.1.1 # 30.07.2024
 mod 'nanliu/staging', "1.0.3"
 mod 'openstack/ceph', '7.0.0' # 28.02.2025
 mod 'pcfens-filebeat', '4.14.0' # 07.06.2023
@@ -32,7 +33,7 @@ mod 'puppetlabs/haproxy', "8.2.0" # 31.01.2025
 mod 'puppetlabs/inifile', "6.2.0" # 16.12.2024
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
-mod 'puppetlabs/mysql', "12.0.3" # 25.05.2022
+mod 'puppetlabs/mysql', "16.3.0" # 30.07.2025
 mod 'puppetlabs/ntp', "9.0.1"
 mod 'puppetlabs/postgresql', "9.2.0" # 30.08.2023
 mod 'puppetlabs/puppet_agent', "4.21.0" # 25.09.2024 Nyere enn dette krever apt >=10, men det vil ikke openstack_extras @ 2024.1 ha
@@ -41,8 +42,8 @@ mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
 mod 'puppetlabs/stdlib', "9.7.0" # 17.12.2024
 mod 'puppetlabs/vcsrepo', "1.3.2"
-mod 'puppetlabs/xinetd', "3.3.0" # 29.05.2019
-mod 'puppetlabs/yumrepo_core', "1.0.7"
+mod 'puppetlabs/xinetd', "3.4.1" # 18.07.2023
+mod 'puppetlabs/yumrepo_core', "2.1.0" # 07.03.2024
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/dhcp', "6.1.0" # 23.01.2024
 mod 'puppet/logrotate', '6.0.0' # 28.09.2021
