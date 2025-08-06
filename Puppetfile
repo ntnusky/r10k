@@ -22,7 +22,7 @@ mod 'nanliu/staging', "1.0.3"
 mod 'openstack/ceph', '7.0.0' # 28.02.2025
 mod 'pcfens-filebeat', '4.14.0' # 07.06.2023
 mod 'puppetlabs/apache', "12.3.1" # 31.03.2025
-mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
+mod 'puppetlabs/apt', "9.4.0" # 15.02.2024
 mod 'puppetlabs/concat', "5.3.0"
 mod 'puppetlabs/firewall', "8.1.7" # 10.06.2025
 mod 'puppetlabs/facts', "1.4.0"
