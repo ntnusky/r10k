@@ -18,7 +18,7 @@ mod 'inkblot/ipcalc', '2.2.0' # 03.03.2017
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
 mod 'markt/galera', '4.0.1' # 14.08.2024
-mod 'markt/marktlib', 0.1.1 # 30.07.2024
+mod 'markt/marktlib', '0.1.1' # 30.07.2024
 mod 'nanliu/staging', "1.0.3"
 mod 'openstack/ceph', '7.0.0' # 28.02.2025
 mod 'pcfens-filebeat', '4.14.0' # 07.06.2023
