@@ -20,7 +20,7 @@ mod 'markt/galera', '4.0.1' # 14.08.2024
 mod 'markt/marktlib', '0.1.1' # 30.07.2024
 mod 'nanliu/staging', "1.0.3"
 mod 'openstack/ceph', '7.0.0' # 28.02.2025
-mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
+mod 'pcfens-filebeat', '4.14.0' # 07.06.2023
 mod 'puppetlabs/apache', "9.1.3" # 20.04.2023
 mod 'puppetlabs/apt', "9.4.0" # 15.02.2024
 mod 'puppetlabs/concat', "5.3.0"
