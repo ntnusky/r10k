@@ -45,11 +45,12 @@ mod 'puppetlabs/vcsrepo', "1.3.2"
 mod 'puppetlabs/xinetd', "3.4.1" # 18.07.2023
 mod 'puppetlabs/yumrepo_core', "2.1.0" # 07.03.2024
 mod 'puppet/archive', "3.0.0"
+mod 'puppet/erlang', "1.1.0" # 08.03.2023
 mod 'puppet/dhcp', "6.1.0" # 23.01.2024
 mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '11.0.1' # 08.06.2023
-mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
+mod 'puppet/rabbitmq', "14.4.1" # 20.06.2025
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/systemd', '8.2.0' # 19.04.2025
 mod 'puppet/unattended_upgrades', "4.0.0"
