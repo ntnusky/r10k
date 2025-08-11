@@ -96,7 +96,7 @@ mod 'shiftleader',
   :branch => 'main'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :branch => 'jammy'
+  :branch => 'noble'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
