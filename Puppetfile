@@ -5,7 +5,7 @@ forge "http://forge.puppetlabs.com"
 mod 'aboe/chrony', '0.3.2'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
-mod 'deric/zookeeper', '1.5.0' # 08.08.2023
+mod 'deric/zookeeper', '1.6.0' # 22.01.2025
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
