@@ -5,63 +5,62 @@ forge "http://forge.puppetlabs.com"
 mod 'aboe/chrony', '0.3.2'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
-mod 'camptocamp/systemd', "2.12.0"
-mod 'deric/zookeeper', '1.5.0' # 08.08.2023
+mod 'deric/zookeeper', '1.6.0' # 22.01.2025
 mod 'duritong/sysctl',
   :git => 'https://github.com/duritong/puppet-sysctl.git',
   :commit => '50000684692b29319e3e9acc604aca05333d3f72'
 mod 'example42/network', "3.5.3"
-mod 'fraenki/galera', '3.0.1' # 17.08.2022
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'horsefish-bmc', '0.1.12' # 05.01.2021
 mod 'inkblot/ipcalc', '2.2.0' # 03.03.2017
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
+mod 'markt/galera', '4.0.1' # 14.08.2024
+mod 'markt/marktlib', '0.1.1' # 30.07.2024
 mod 'nanliu/staging', "1.0.3"
 mod 'openstack/ceph', '7.0.0' # 28.02.2025
-mod 'pcfens-filebeat', '4.11.0' # 07.06.2021
-mod 'puppetlabs/apache', "9.1.3" # 20.04.2023
-mod 'puppetlabs/apt', "9.0.2" # 14.03.2023
+mod 'pcfens-filebeat', '4.14.0' # 07.06.2023
+mod 'puppetlabs/apache', "12.3.1" # 31.03.2025
+mod 'puppetlabs/apt', "9.4.0" # 15.02.2024
 mod 'puppetlabs/concat', "5.3.0"
-# Firewall >5 needs stdlib >=9; which we cant have before 2023.2
-mod 'puppetlabs/firewall', "5.0.0" # 31.05.2023
+mod 'puppetlabs/firewall', "8.1.7" # 10.06.2025
 mod 'puppetlabs/facts', "1.4.0"
 mod 'puppetlabs/gcc', '0.3.0'
 mod 'puppetlabs/git', '0.5.0'
-mod 'puppetlabs/haproxy', "8.0.0" # 22.11.2023
-mod 'puppetlabs/inifile', "2.5.0"
+mod 'puppetlabs/haproxy', "8.2.0" # 31.01.2025
+mod 'puppetlabs/inifile', "6.2.0" # 16.12.2024
 mod 'puppetlabs/java', "1.6.0"
 mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
-mod 'puppetlabs/mysql', "12.0.3" # 25.05.2022
+mod 'puppetlabs/mysql', "16.3.0" # 30.07.2025
 mod 'puppetlabs/ntp', "9.0.1"
-mod 'puppetlabs/postgresql', "9.2.0" # 30.08.2023
-mod 'puppetlabs/puppet_agent', "4.15.0" # 21.09.2023
+mod 'puppetlabs/postgresql', "10.5.0" # 07.01.2025
+mod 'puppetlabs/puppet_agent', "4.21.0" # 25.09.2024 Nyere enn dette krever apt >=10, men det vil ikke openstack_extras @ 2024.1 ha
 mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
-# Openstacklib needs stdlib < 9 until 2023.2
-mod 'puppetlabs/stdlib', "8.6.0" # 24.04.2023
+mod 'puppetlabs/stdlib', "9.7.0" # 17.12.2024
 mod 'puppetlabs/vcsrepo', "1.3.2"
-mod 'puppetlabs/xinetd', "3.3.0" # 29.05.2019
-mod 'puppetlabs/yumrepo_core', "1.0.7"
+mod 'puppetlabs/xinetd', "3.4.1" # 18.07.2023
+mod 'puppetlabs/yumrepo_core', "2.1.0" # 07.03.2024
 mod 'puppet/archive', "3.0.0"
-mod 'puppet/dhcp', "4.0.1" # 23.08.2020
+mod 'puppet/dhcp', "6.1.0" # 23.01.2024
 mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
-mod 'puppet/r10k', '11.0.1' # 08.06.2023
-mod 'puppet/rabbitmq', "11.1.0" # 06.05.2021
+mod 'puppet/r10k', '14.3.0' # 18.05.2025
+mod 'puppet/rabbitmq', "14.4.1" # 20.06.2025
 mod 'puppet/selinux', '3.2.0'
+mod 'puppet/systemd', '8.2.0' # 19.04.2025
 mod 'puppet/unattended_upgrades', "4.0.0"
 mod 'puppet/zabbix', "10.0.0" # 15.03.2024
 mod 'saz/locales', '4.1.0' # 05.02.2025
-mod 'saz/memcached', "7.0.0" # 11.06.2021
+mod 'saz/memcached', "10.0.1" # 10.03.2025
 mod 'saz/ssh', "10.2.0" # 26.05.2023
 mod 'saz/sudo', "8.0.0" # 26.06.2023
 mod 'saz/timezone', '6.0.0'
 mod 'stm/debconf', '3.2.0'
 mod 'sgnl05/sssd', "0.3.1"
-mod 'theforeman-dns', '9.6.0' # 03.05.2023
+mod 'theforeman-dns', '11.1.0' # 09.05.2025
 mod 'treydock/yum_cron', "5.1.0"
 mod 'zehweh/netplan', '2.0.0'
 
@@ -71,10 +70,10 @@ mod 'role',
   :tag => 'v1.14.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.29.3'
+  :tag => 'v1.30.1'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vC.0.0'
+  :tag => 'vC.0.1'
 
 # Misc modules from git.
 mod 'hpacucli',
@@ -97,7 +96,7 @@ mod 'shiftleader',
   :branch => 'main'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
-  :branch => 'jammy'
+  :branch => 'noble'
 mod 'tftp',
   :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
   :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
