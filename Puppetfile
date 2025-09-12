@@ -1,4 +1,4 @@
-forge "http://forge.puppetlabs.com"
+
 
 # Comments are the release date for the version used (dd.mm.yyyy)
 
@@ -70,7 +70,7 @@ mod 'role',
   :tag => 'v1.14.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.30.2'
+  :tag => 'v1.30.3'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vC.0.3'
