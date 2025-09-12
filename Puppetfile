@@ -1,4 +1,4 @@
-forge "http://forge.puppetlabs.com"
+
 
 # Comments are the release date for the version used (dd.mm.yyyy)
 
