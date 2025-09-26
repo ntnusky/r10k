@@ -40,7 +40,7 @@ mod 'puppetlabs/puppetdb', "7.8.0"
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
 mod 'puppetlabs/stdlib', "9.7.0" # 17.12.2024
-mod 'puppetlabs/vcsrepo', "1.3.2"
+mod 'puppetlabs/vcsrepo', "7.0.0" # 26.02.2025
 mod 'puppetlabs/xinetd', "3.4.1" # 18.07.2023
 mod 'puppetlabs/yumrepo_core', "2.1.0" # 07.03.2024
 mod 'puppet/archive', "3.0.0"
