@@ -70,7 +70,7 @@ mod 'role',
   :tag => 'v1.14.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.30.4'
+  :branch => 'lenovoefi'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag =>  'vC.0.7'
