@@ -104,7 +104,7 @@ mod 'tftp',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :commit => 'd64888b59901aa2f388154a6dac057bac71bc0f4'
+  :branch => 'stable/2025.1'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
   :branch => 'stable/2025.1'
