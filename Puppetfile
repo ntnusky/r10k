@@ -73,7 +73,7 @@ mod 'profile',
   :branch => 'zabbixvgpu'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vE.0.0'
+  :branch => 'zabbixvgpu'
 
 # Misc modules from git.
 mod 'hpacucli',
