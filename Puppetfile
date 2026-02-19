@@ -70,10 +70,10 @@ mod 'role',
   :tag => 'v1.15.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.30.6'
+  :tag => 'v1.30.8'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vE.0.0'
+  :tag => 'vE.0.1'
 
 # Misc modules from git.
 mod 'hpacucli',
