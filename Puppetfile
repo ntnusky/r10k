@@ -2,7 +2,6 @@ forge "http://forge.puppetlabs.com"
 
 # Comments are the release date for the version used (dd.mm.yyyy)
 
-mod 'aboe/chrony', '0.3.2'
 mod 'arioch/keepalived', "1.2.5"
 mod 'camptocamp/kmod', "2.3.1"
 mod 'deric/zookeeper', '1.6.0' # 22.01.2025
@@ -44,6 +43,7 @@ mod 'puppetlabs/vcsrepo', "7.0.0" # 26.02.2025
 mod 'puppetlabs/xinetd', "3.4.1" # 18.07.2023
 mod 'puppetlabs/yumrepo_core', "2.1.0" # 07.03.2024
 mod 'puppet/archive', "3.0.0"
+mod 'puppet/chrony', '5.0.0' # 27.11.2025
 mod 'puppet/dhcp', "6.1.0" # 23.01.2024
 mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
