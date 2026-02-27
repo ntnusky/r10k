@@ -35,7 +35,7 @@ mod 'puppetlabs/mysql', "16.3.0" # 30.07.2025
 mod 'puppetlabs/ntp', "9.0.1"
 mod 'puppetlabs/postgresql', "10.5.0" # 07.01.2025
 mod 'puppetlabs/puppet_agent', "4.21.0" # 25.09.2024 Nyere enn dette krever apt >=10, men det vil ikke openstack_extras @ 2024.1 ha
-mod 'puppetlabs/puppetdb', "7.8.0"
+mod 'puppetlabs/puppetdb', "8.1.0" # 07.05.2024
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
 mod 'puppetlabs/stdlib', "9.7.0" # 17.12.2024
