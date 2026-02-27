@@ -51,7 +51,7 @@ mod 'puppet/r10k', '14.3.0' # 18.05.2025
 mod 'puppet/rabbitmq', "14.4.1" # 20.06.2025
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/systemd', '8.2.0' # 19.04.2025
-mod 'puppet/unattended_upgrades', "4.0.0"
+mod 'puppet/unattended_upgrades', "9.1.0" # 27.11.2025
 mod 'puppet/zabbix', "10.0.0" # 15.03.2024
 mod 'saz/locales', '4.1.0' # 05.02.2025
 mod 'saz/memcached', "10.0.1" # 10.03.2025
