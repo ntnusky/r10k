@@ -73,7 +73,7 @@ mod 'profile',
   :branch => 'puppet8'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch =>  'legacyc'
+  :branch =>  'legacyc8'
 
 # Misc modules from git.
 mod 'hpacucli',
