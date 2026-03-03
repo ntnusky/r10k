@@ -44,6 +44,7 @@ mod 'puppetlabs/yumrepo_core', "2.1.0" # 07.03.2024
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/chrony', '5.0.0' # 27.11.2025
 mod 'puppet/dhcp', "6.1.0" # 23.01.2024
+mod 'puppet/extlib', "7.5.1" # 18.02.2025
 mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '14.3.0' # 18.05.2025
