@@ -34,7 +34,6 @@ mod 'puppetlabs/lvm', "1.4.0" # 12.02.2020
 mod 'puppetlabs/mysql', "16.3.0" # 30.07.2025
 mod 'puppetlabs/ntp', "9.0.1"
 mod 'puppetlabs/postgresql', "10.5.0" # 07.01.2025
-mod 'puppetlabs/puppet_agent', "4.21.0" # 25.09.2024 Nyere enn dette krever apt >=10, men det vil ikke openstack_extras @ 2024.1 ha
 mod 'puppetlabs/puppetdb', "8.1.0" # 07.05.2024
 mod 'puppetlabs/ruby', '1.0.0'
 mod 'puppetlabs/translate', '1.2.0'
@@ -60,7 +59,8 @@ mod 'saz/sudo', "8.0.0" # 26.06.2023
 mod 'saz/timezone', '6.0.0'
 mod 'stm/debconf', '3.2.0'
 mod 'sgnl05/sssd', "0.3.1"
-mod 'theforeman-dns', '11.1.0' # 09.05.2025
+mod 'theforeman/dns', '11.1.0' # 09.05.2025
+mod 'theforeman/puppet', '22.1.0' # 27.01.2026
 mod 'treydock/yum_cron', "5.1.0"
 mod 'zehweh/netplan', '2.0.0'
 
