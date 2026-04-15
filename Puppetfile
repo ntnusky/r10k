@@ -79,7 +79,7 @@ mod 'ntnuopenstack',
 # Misc modules from git.
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
-  :tag => '0.5.1'
+  :tag => '0.6.0'
 mod 'hwraid',
   :git => 'https://github.com/ntnusky/puppet-hwraid.git',
   :commit => '45738374a83ff22f7a4cab946fa9bf47fee61fea'
