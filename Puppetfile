@@ -62,6 +62,7 @@ mod 'stm/debconf', '3.2.0'
 mod 'sgnl05/sssd', "0.3.1"
 mod 'theforeman/dns', '11.1.0' # 09.05.2025
 mod 'theforeman/puppet', '22.1.0' # 27.01.2026
+mod 'theforeman/tftp', '10.0.0' # 08.08.2025
 mod 'treydock/yum_cron', "5.1.0"
 mod 'zehweh/netplan', '2.0.0'
 
@@ -98,9 +99,6 @@ mod 'shiftleader',
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
   :branch => 'noble'
-mod 'tftp',
-  :git => 'https://github.com/puppetlabs/puppetlabs-tftp',
-  :commit => '91f8a291ea4b6ff366c0dcf9f2b09b9cd8841568'
 
 # Openstack modules
 mod 'barbican',
