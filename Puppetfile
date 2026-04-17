@@ -62,6 +62,7 @@ mod 'stm/debconf', '3.2.0'
 mod 'sgnl05/sssd', "0.3.1"
 mod 'theforeman/dns', '11.1.0' # 09.05.2025
 mod 'theforeman/puppet', '22.1.0' # 27.01.2026
+mod 'thias/libvirt', '1.0.3'  #04.02.2025
 mod 'treydock/yum_cron', "5.1.0"
 mod 'zehweh/netplan', '2.0.0'
 
@@ -83,9 +84,6 @@ mod 'hpacucli',
 mod 'hwraid',
   :git => 'https://github.com/ntnusky/puppet-hwraid.git',
   :commit => '45738374a83ff22f7a4cab946fa9bf47fee61fea'
-mod 'libvirt',
-  :git => 'https://github.com/ntnusky/puppet-libvirt.git',
-  :branch => 'jammy'
 mod 'os',
   :git => 'https://github.com/Puppet-Finland/os.git',
   :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
