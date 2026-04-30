@@ -70,7 +70,7 @@ mod 'role',
   :tag => 'v1.15.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'copyfail'
+  :tag => 'v1.30.10'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vE.0.2'
