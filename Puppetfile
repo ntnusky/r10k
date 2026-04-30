@@ -70,7 +70,7 @@ mod 'role',
   :tag => 'v1.15.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.30.9'
+  :tag => 'v1.30.10'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :tag => 'vE.0.2'
@@ -93,7 +93,7 @@ mod 'rrd',
   :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
 mod 'shiftleader',
   :git => 'https://github.com/shiftleader2/puppet-shiftleader',
-  :branch => 'main'
+  :tag => 'v1.0.0'
 mod 'srvadmin',
   :git => 'https://github.com/ntnusky/puppet-srvadmin.git',
   :branch => 'noble'
