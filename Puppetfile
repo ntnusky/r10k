@@ -75,7 +75,7 @@ mod 'profile',
   :tag => 'v1.31.3'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'shredding'
+  :tag => 'vE.2.0'
 
 # Misc modules from git.
 mod 'hpacucli',
