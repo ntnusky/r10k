@@ -70,7 +70,7 @@ mod 'zehweh/netplan', '2.0.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.15.0'
+  :branch => 'gazpacho'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :tag => 'v1.31.4'
@@ -116,9 +116,6 @@ mod 'heat',
   :branch => 'stable/2026.1'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/2026.1'
-mod 'magnum',
-  :git => 'https://github.com/openstack/puppet-magnum.git',
   :branch => 'stable/2026.1'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
