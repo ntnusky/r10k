@@ -11,6 +11,7 @@ mod 'duritong/sysctl',
 mod 'example42/network', "3.5.3"
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
+mod 'hetzner-needrestart', '1.0.5' # 11.02.2025
 mod 'horsefish-bmc', '0.1.12' # 05.01.2021
 mod 'inkblot/ipcalc', '2.2.0' # 03.03.2017
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
