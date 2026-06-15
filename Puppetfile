@@ -43,6 +43,7 @@ mod 'puppetlabs/stdlib', "9.7.0" # 17.12.2024
 mod 'puppetlabs/vcsrepo', "7.0.0" # 26.02.2025
 mod 'puppetlabs/xinetd', "3.4.1" # 18.07.2023
 mod 'puppetlabs/yumrepo_core', "2.1.0" # 07.03.2024
+mod 'puppet/alternatives', "6.0.0" # 18.09.2024
 mod 'puppet/archive', "3.0.0"
 mod 'puppet/chrony', '5.0.0' # 27.11.2025
 mod 'puppet/dhcp', "6.1.0" # 23.01.2024
