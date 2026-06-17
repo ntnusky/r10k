@@ -59,7 +59,9 @@ mod 'puppet/zabbix', "11.0.0" # 27.08.2025
 mod 'saz/locales', '4.1.0' # 05.02.2025
 mod 'saz/memcached', "10.0.1" # 10.03.2025
 mod 'saz/ssh', "10.2.0" # 26.05.2023
-mod 'saz/sudo', "9.0.2" # 28.02.2025
+mod 'saz/sudo', # 22.04.2026 (this includes support for sudo-rs)
+  :git => 'https://github.com/saz/puppet-sudo.git',
+  :commit => 'cf755123c98c7a3898a22c6191ed134b266f7148'
 mod 'saz/timezone', '6.0.0'
 mod 'stm/debconf', '3.2.0'
 mod 'sgnl05/sssd', "0.3.1"
