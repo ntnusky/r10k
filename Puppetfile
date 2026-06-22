@@ -76,7 +76,7 @@ mod 'profile',
   :tag => 'v1.31.5'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vE.2.0'
+  :branch => 'multibgpscheduler'
 
 # Misc modules from git.
 mod 'hpacucli',
