@@ -76,7 +76,7 @@ mod 'profile',
   :tag => 'v1.31.5'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vE.2.0'
+  :tag => 'vE.2.1'
 
 # Misc modules from git.
 mod 'hpacucli',
