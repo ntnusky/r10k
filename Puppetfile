@@ -76,7 +76,7 @@ mod 'profile',
   :tag => 'v1.31.4'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'gazpacho'
+  :branch => 'vminexternalnet'
 
 # Misc modules from git.
 mod 'hpacucli',
