@@ -73,7 +73,7 @@ mod 'role',
   :branch => 'gazpacho'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.31.8'
+  :branch => 'openstackclients'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :branch => 'gazpacho'
