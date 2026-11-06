@@ -70,13 +70,13 @@ mod 'zehweh/netplan', '2.0.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'gazpacho'
+  :tag => 'v1.17.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :branch => 'openstackclients'
+  :tag => 'v1.31.9'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :branch => 'gazpacho'
+  :tag => 'vG.0.0'
 
 # Misc modules from git.
 mod 'hpacucli',
