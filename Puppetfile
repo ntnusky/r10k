@@ -70,10 +70,10 @@ mod 'zehweh/netplan', '2.0.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :branch => 'gazpacho'
+  :tag => 'v1.17.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
-  :tag => 'v1.31.4'
+  :tag => 'v1.31.9'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
   :branch => 'vminexternalnet'
