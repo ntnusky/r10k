@@ -49,6 +49,7 @@ mod 'puppet/extlib', "7.5.1" # 18.02.2025
 mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '14.3.0' # 18.05.2025
+#mod 'puppet/rabbitmq', "14.4.1" # 20.06.2025
 mod 'puppet/rabbitmq', "14.4.1" # 20.06.2025
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/systemd', '8.2.0' # 19.04.2025
@@ -85,6 +86,9 @@ mod 'hpacucli',
 mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git',
   :branch => 'jammy'
+mod 'rabbitmq',
+  :git => 'https://github.com/ntnusky/puppet-rabbitmq.git',
+  :branch => 'master'
 mod 'rrd',
   :git => 'https://github.com/ntnusky/puppet-rrd.git',
   :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
