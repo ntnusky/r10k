@@ -50,7 +50,6 @@ mod 'puppet/logrotate', '6.0.0' # 28.09.2021
 mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '14.3.0' # 18.05.2025
 #mod 'puppet/rabbitmq', "14.4.1" # 20.06.2025
-mod 'puppet/rabbitmq', "14.4.1" # 20.06.2025
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/systemd', '8.2.0' # 19.04.2025
 mod 'puppet/unattended_upgrades', "9.1.0" # 27.11.2025
