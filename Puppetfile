@@ -12,6 +12,7 @@ mod 'example42/network', "3.5.3"
 mod 'herculesteam-augeasproviders_core', '2.6.0'
 mod 'herculesteam-augeasproviders_shellvar', '4.0.0'
 mod 'horsefish-bmc', '0.1.12' # 05.01.2021
+mod 'hetzner-needrestart', '1.0.5' # 11.02.2025
 mod 'inkblot/ipcalc', '2.2.0' # 03.03.2017
 mod 'ianoberst/xml_fragment', '1.0.4' # 9.03.2021
 mod 'lwf/remote_file', '1.1.3'
@@ -72,27 +73,21 @@ mod 'zehweh/netplan', '2.0.0'
 # Our roles and profiles
 mod 'role',
   :git => 'https://github.com/ntnusky/role.git',
-  :tag => 'v1.15.0'
+  :tag => 'v1.17.0'
 mod 'profile',
   :git => 'https://github.com/ntnusky/profile.git',
   :branch => 'resolute'
 mod 'ntnuopenstack',
   :git => 'https://github.com/ntnusky/ntnuopenstack.git',
-  :tag => 'vE.1.0'
+  :tag => 'vG.1.1'
 
 # Misc modules from git.
 mod 'hpacucli',
   :git => 'https://github.com/ntnusky/puppet-hpacucli.git',
   :tag => '0.6.0'
-mod 'hwraid',
-  :git => 'https://github.com/ntnusky/puppet-hwraid.git',
-  :commit => '45738374a83ff22f7a4cab946fa9bf47fee61fea'
 mod 'libvirt',
   :git => 'https://github.com/ntnusky/puppet-libvirt.git',
   :branch => 'jammy'
-mod 'os',
-  :git => 'https://github.com/Puppet-Finland/os.git',
-  :commit => 'acaa49115fb0bb8bb0742df21144357382181f41'
 mod 'rrd',
   :git => 'https://github.com/ntnusky/puppet-rrd.git',
   :commit => 'f0d6be1f932d4b9c3db2da4ba21930519875ed06'
@@ -106,49 +101,46 @@ mod 'srvadmin',
 # Openstack modules
 mod 'barbican',
   :git => 'https://github.com/openstack/puppet-barbican.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'cinder',
   :git => 'https://github.com/openstack/puppet-cinder.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'designate',
   :git => 'https://github.com/openstack/puppet-designate.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'glance',
   :git => 'https://github.com/openstack/puppet-glance.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'horizon',
   :git => 'https://github.com/openstack/puppet-horizon.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'heat',
   :git => 'https://github.com/openstack/puppet-heat.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'keystone',
   :git => 'https://github.com/openstack/puppet-keystone.git',
-  :branch => 'stable/2025.1'
-mod 'magnum',
-  :git => 'https://github.com/openstack/puppet-magnum.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'neutron',
   :git => 'https://github.com/openstack/puppet-neutron.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'nova',
   :git => 'https://github.com/openstack/puppet-nova.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'octavia',
   :git => 'https://github.com/openstack/puppet-octavia.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'openstack_extras',
   :git => 'https://github.com/openstack/puppet-openstack_extras.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'openstacklib',
   :git => 'https://github.com/openstack/puppet-openstacklib.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'oslo',
   :git => 'https://github.com/openstack/puppet-oslo.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'placement',
   :git => 'https://github.com/openstack/puppet-placement.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
 mod 'vswitch',
   :git => 'https://github.com/openstack/puppet-vswitch.git',
-  :branch => 'stable/2025.1'
+  :branch => 'stable/2026.1'
