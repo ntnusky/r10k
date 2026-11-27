@@ -51,7 +51,7 @@ mod 'puppet/make', '1.1.0'
 mod 'puppet/r10k', '14.3.0' # 18.05.2025
 mod 'puppet/rabbitmq', # Inneholder en feature vi må ha, som p.t ikke er i tagget versjon
   :git => 'https://github.com/voxpupuli/puppet-rabbitmq.git',
-  :commit => 'b91c9c79791ecb390f09ba01316b47c8ff815ea8',
+  :commit => 'b91c9c79791ecb390f09ba01316b47c8ff815ea8'
 mod 'puppet/selinux', '3.2.0'
 mod 'puppet/systemd', '8.2.0' # 19.04.2025
 mod 'puppet/unattended_upgrades', "9.1.0" # 27.11.2025
