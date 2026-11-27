@@ -22,7 +22,7 @@ mod 'nanliu/staging', "1.0.3"
 mod 'openstack/ceph', '7.0.0' # 28.02.2025
 mod 'pcfens-filebeat', # 04.12.2025
   :git => 'https://github.com/pcfens/puppet-filebeat.git',
-  :commit => '3ae32d918e19f287d22658d13ebc77f9177f3db2'
+  :commit => '46b9254984a80924c9cdb2a50d29e0ce9899e234'
 mod 'puppetlabs/apache', "12.3.1" # 31.03.2025
 mod 'puppetlabs/apt', "11.4.0" # 09.09.2026
 mod 'puppetlabs/concat', "5.3.0"
